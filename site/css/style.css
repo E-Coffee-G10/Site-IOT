@@ -1,0 +1,448 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f3f3;
+    font-family: 'Red Hat Display';
+}
+
+/* Header das telas*/
+
+.header {
+    background-color: #753a22;
+    color: #FFFFFF;
+    border-bottom: 3px solid #361E0B;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.now {
+    font-weight: bold;
+}
+
+.now_img {
+    height: 15px;
+    margin-right: 5px;
+    font-weight: bolder;
+}
+
+/* --------------------------- */
+
+/* Banner das telas*/
+
+.banner_simulador {
+    background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    padding: 15vh 5vh;
+}
+
+.banner_login {
+    background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    padding: 3vh;
+}
+
+.banner_simulador .container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.banner_simulador .container.simulador {
+    justify-content: center;
+}
+
+.banner_login .contenier.login {
+    margin: auto;
+}
+
+.banner_cadastro {
+    background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+/* -------------------------------- */
+
+/* Cards das telas */
+
+/* simulador */
+.card_simulador {
+    background-color: #ffffff;
+    color: #753a22;
+    border: 2px solid #753a22;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+.card_simulador h1 {
+    margin-left: 30px;
+    align-self: center;
+}
+
+.card_simulador h4 {
+    margin: 4px;
+    margin-left: 40px;
+    color: #753a22;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.input_simulador {
+    margin-top: 8px;
+    outline: 2px solid #753a22;
+    background-color: #E5E5E5;
+    border: 0;
+    padding: 8px 8px;
+    border-radius: 20px;
+    width: 80%;
+    font-size: larger;
+}
+
+.btn_simulador {
+    margin-top: 50px;
+    color: #753a22;
+    background-color: #ffffff;
+    border: 2px solid #753a22;
+    border-radius: 20px;
+    width: 40%;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn_simulador:hover {
+    background-color: #87994B;
+    cursor: pointer;
+}
+
+/* -------------------------------- */
+
+/* login */
+.card_login {
+    background-color: #ffff;
+    color: #753a22;
+    width: 390px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #753A22;
+    border-radius: 40px;
+}
+
+.card_login h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: 0em;
+    margin: 0;
+}
+
+.card_login h4 {
+    margin: 0;
+    color: #753a22;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.input_login {
+    margin-top: 8px;
+    outline: 2px solid #753a22;
+    background-color: #E5E5E5;
+    padding: 8px 8px;
+    border-radius: 20px;
+    width: 95%;
+    font-size: larger;
+}
+
+.resultado {
+    font-size: 15px;
+}
+
+/* ------------------------- */
+
+/* cadastro */
+.card_cadastro {
+    padding-left: 10px;
+    background-color: #ffffff;
+    color: #4b3621;
+    width: 900px;
+    height: 65%;
+    display: flex;
+    border: 2px solid #753A2280;
+    border-radius: 40px;
+    flex-wrap: wrap;
+}
+
+.cadastro_direito {
+    width: 250px;
+    margin-left: 90px;
+    padding-right: 10px;
+}
+
+.cadastro_esquerdo {
+    width: 300px;
+}
+
+.cadastro_meio {
+    width: 200px;
+}
+
+.titulo_cadastro {
+    width: 900px;
+    height: 50px;
+}
+
+.card_cadastro .input_cadastro {
+    outline: 2px solid #753a22;
+    background-color: #E5E5E5;
+    border: 0;
+    padding: 8px;
+    border-radius: 20px;
+    width: auto;
+    font-size: larger;
+}
+
+#contato_select {
+    font-size: larger;
+    margin-left: 50px;
+    border-radius: 20px #753a22;
+}
+
+.btn_cadastro {
+    margin-top: 60px;
+    margin-left: 70px;
+    background-color: #753a22;
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 10px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27850b;
+    cursor: pointer;
+}
+
+/* --------------------- */
+
+/* --------------------------------- */
+
+/* Forms das telas */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+}
+
+form label {
+    margin: 0;
+}
+
+form input {
+    outline: 2px solid #753A22;
+    border: 0;
+    border-radius: 40px;
+    width: 95%;
+}
+
+form #emailInput {
+    margin-bottom: 10px;
+}
+
+form p {
+    color: #753A22;
+    margin-top: 0px;
+    text-align: right;
+    display: block;
+    margin-bottom: 25px;
+}
+
+form #entra {
+    border: 3px solid #753A22;
+    border-radius: 40px;
+    background-color: white;
+    color: #753a22;
+    width: 45%;
+    height: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+form #entra:hover {
+    background-color: #753a22;
+    border: 3px solid #753A22;
+    color: white;
+}
+
+form #cadastro {
+    border: 3px solid #87994B;
+    border-radius: 40px;
+    background-color: white;
+    color: #87994B;
+    width: 45%;
+    height: 32px;
+    float: right;
+    cursor: pointer;
+}
+
+form #cadastro:hover {
+    color: white;
+    background-color: #87994B;
+    cursor: pointer;
+}
+
+.esquecer {
+    text-decoration: none;
+    color: #753a22;
+    margin-top: 3px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #753a22;
+    color: white;
+}
+
+.footer .container {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+/* Output javascrpt*/
+
+.card_simulador .output_javascript {
+    display: flex;
+    flex-direction: column;
+}
+
+.output_javascript {
+    margin: 0;
+    padding: 0;
+}
+
+.output_resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_js {
+    margin: 15px;
+}
+
+.output_resultado .list_js_01 {
+    margin: 0;
+}
+
+.output_resultado .list_js_02 {
+    margin: 0;
+    list-style: none;
+    width: 85%;
+    padding: 25px 25px;
+}
+
+.output_resultado li {
+    margin: 15px;
+    font-weight: bold;
+}
+
+.output_perda {
+    color: #D10007;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.output_producao {
+    color: #361E0B;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.output_ganho {
+    color: #361E0B;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.output_estimativa {
+    color: #2C9A0C;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.output_reducao {
+    color: #2C9A0C;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.btn_js_simulador {
+    margin-top: 10px;
+    color: #753a22;
+    background-color: #ffffff;
+    border: 2px solid #753a22;
+    border-radius: 20px;
+    width: 40%;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.btn_js_simulador:hover {
+    background-color: #87994B;
+    cursor: pointer;
+}
