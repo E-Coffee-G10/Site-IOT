@@ -1,26 +1,26 @@
-body{
-    font-family:'Red Hat Display';
+body {
+    font-family: 'Red Hat Display';
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 /* Header */
 
-.tela1{
+.tela1 {
     background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
     background-size: cover;
     height: 640px;
     width: 100%;
 }
 
-h1{
+h1 {
     margin-right: 40%;
 }
 
-.now{
-    text-decoration:none;
+.now {
+    text-decoration: none;
     font-weight: bold;
-    color: #2C1408; 
+    color: #2C1408;
 }
 
 .header {
@@ -40,7 +40,7 @@ h1{
 .header .container {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
 
 .navbar {
@@ -54,7 +54,7 @@ h1{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 20px;
-}   
+}
 
 .now_img {
     height: 15px;
@@ -101,148 +101,150 @@ img{
 
 /* --------------------------- */
 
-.slogan{
+.slogan {
     height: 570px;
-    display:flex;
-    color:white;
+    display: flex;
+    color: white;
     width: 539px;
 }
 
-.slogan p{
+.slogan p {
     font-size: 40px;
     font-weight: bolder;
-    margin-top:22%;
-    margin-left:25%;
+    margin-top: 22%;
+    margin-left: 25%;
 }
 
 /*Tela 2*/
 
-.tela2{
+.tela2 {
     background-color: #fbf8f9;
 }
 
-.background2{
+.background2 {
     color: #000;
     display: flex;
     justify-content: space-between;
 
 }
 
-.sobre{
+.sobre {
     margin-left: 111px;
     align-items: center;
-    
+
 }
 
-.titulo{
-    font-weight:bolder;
+.titulo {
+    font-weight: bolder;
     font-size: 40px;
     margin-top: 30%;
 }
-.descricao{
-    font-size:28px;
+
+.descricao {
+    font-size: 28px;
     width: 500px;
     height: 335px;
 }
 
-#imagem-sobre-nos{
+#imagem-sobre-nos {
     margin-top: 10%;
     margin-right: 10%;
-    width: 500px ;
+    width: 500px;
     height: 581px;
-    display:flex;
+    display: flex;
 }
 
 /*Serviços*/
 
-.tela3{
+.tela3 {
     background: url(./../imgs/site-institucional/background/Mancha-Direita.png) no-repeat right top,
-    url(./../imgs/site-institucional/background/Mancha-Esquerda.png) no-repeat left bottom;
+        url(./../imgs/site-institucional/background/Mancha-Esquerda.png) no-repeat left bottom;
     background-color: #fbf8f9;
-    
+
 
 }
-.servicos{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
-.titulo-servicos{
+.titulo-servicos {
     font-size: 60px;
     font-weight: bold;
 }
-.descricao-servicos{
+
+.descricao-servicos {
     font-size: 40px;
     margin-left: 190px;
-    text-align:center;
-    width:1000px;
+    text-align: center;
+    width: 1000px;
 }
 
-.box-servicos{
+.box-servicos {
     margin-top: 88px;
     display: flex;
     justify-content: space-around;
-    background-color:white;
-    width:1046px;
-    height:393px;
+    background-color: white;
+    width: 1046px;
+    height: 393px;
     border-radius: 40px;
-    border: 2px solid rgba(50,50,50,0.2);
+    border: 2px solid rgba(50, 50, 50, 0.2);
 
 }
 
-.imagem-box{
-    width:345px;
-    height:385px;
-    margin-left:45px;
+.imagem-box {
+    width: 345px;
+    height: 385px;
+    margin-left: 45px;
 }
 
-.sombra-imagem-box{
-    width:477px;
-    height:393px;
-    border-radius:40px;
-    background-color: rgba(160, 97,106, 0.04)
-
+.sombra-imagem-box {
+    width: 477px;
+    height: 393px;
+    border-radius: 40px;
+    background-color: rgba(160, 97, 106, 0.04)
 }
 
-.titulo-box{
+.titulo-box {
     font-weight: bolder;
     font-size: 50px;
-    text-align:center;
-    display:flex;
+    text-align: center;
+    display: flex;
     justify-content: center;
 }
 
-.descricao-box{
+.descricao-box {
     width: 524px;
-    font-size:26px;
-    font-weight:300, light;
+    font-size: 26px;
+    font-weight: 300, light;
     text-align: center;
     line-height: 34px;
 }
 
-.icon-box{
-    float:right;
-    width:87px;
-    height:87px;
+.icon-box {
+    float: right;
+    width: 87px;
+    height: 87px;
 
 }
 
 /* Tela 4 */
 
-.tela4{
+.tela4 {
     background: url(./../imgs/site-institucional/imagens/plantinha-lado-direito.png) no-repeat right bottom,
-    url(./../imgs/site-institucional/imagens/plantinha-centro.png) no-repeat center,
-    url(./../imgs/site-institucional/imagens/plantinha-lado-esquerdo.png) no-repeat left top;
+        url(./../imgs/site-institucional/imagens/plantinha-centro.png) no-repeat center,
+        url(./../imgs/site-institucional/imagens/plantinha-lado-esquerdo.png) no-repeat left top;
 
 }
 
 
-.equipe{
+.equipe {
     margin-top: 100px;
     background: url(./../imgs/site-institucional/imagens/semente-equipe.png) no-repeat center;
-    background-size:contain;
+    background-size: contain;
     color: white;
     height: 80vh;
     position: relative;
@@ -251,7 +253,7 @@ img{
 
 }
 
-.titulo_equipe{
+.titulo_equipe {
     margin-top: 0;
     text-align: center;
     font-size: 70px;
@@ -260,7 +262,7 @@ img{
 
 }
 
-.texto_equipe{
+.texto_equipe {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -268,21 +270,25 @@ img{
     right: 0;
     text-align: center;
     bottom: 40px;
-    width: 700px;
-    font-size:26px;
-    font-weight:300, light;
+    width: 600px;
+    font-size: 26px;
+    font-weight: 300, light;
     line-height: 34px;
-
 }
 
-.membros_total{
+.membros_total {
     display: flex;
     flex-direction: column;
     width: 100%;
-
 }
 
-.membros_cima{
+.membros_cima {
+    align-self: center;
+    display: flex;
+    width: 80vw;
+}
+
+.membros_baixo {
     align-self: center;
     display: flex;
     justify-content: space-around;
@@ -290,106 +296,91 @@ img{
 
 }
 
-.membros_baixo{
-    align-self: center;
-    display: flex;
-    justify-content: space-around;
-    width: 70vw;
-
-}
-
-#membro1{
+#membro1 {
     margin-top: 88px;
     display: flex;
     justify-content: space-around;
-    background-color:white;
+    background-color: white;
     width: 277px;
     height: 354px;
     border-radius: 40px;
-    border: 2px solid rgba(50,50,50,0.2);
+    border: 2px solid rgba(50, 50, 50, 0.2);
     position: relative;
-
 }
 
-#membro2{
+#membro2 {
     margin-top: 88px;
     display: flex;
     justify-content: space-around;
-    background-color:white;
+    background-color: white;
     width: 277px;
     height: 354px;
     border-radius: 40px;
-    border: 2px solid rgba(50,50,50,0.2);
+    border: 2px solid rgba(50, 50, 50, 0.2);
     position: relative;
-
 }
 
-#membro3{
+#membro3 {
     margin-top: 88px;
     display: flex;
     justify-content: space-around;
-    background-color:white;
+    background-color: white;
     width: 277px;
     height: 354px;
     border-radius: 40px;
-    border: 2px solid rgba(50,50,50,0.2);
+    border: 2px solid rgba(50, 50, 50, 0.2);
     position: relative;
-
 }
 
-#membro4{
+#membro4 {
     margin-top: 88px;
     display: flex;
     justify-content: space-around;
-    background-color:white;
+    background-color: white;
     width: 277px;
     height: 354px;
     border-radius: 40px;
-    border: 2px solid rgba(50,50,50,0.2);
+    border: 2px solid rgba(50, 50, 50, 0.2);
     position: relative;
-
 }
 
-#membro5{
+#membro5 {
     margin-top: 88px;
     display: flex;
     justify-content: space-around;
-    background-color:white;
+    background-color: white;
     width: 277px;
     height: 354px;
     border-radius: 40px;
-    border: 2px solid rgba(50,50,50,0.2);
+    border: 2px solid rgba(50, 50, 50, 0.2);
     position: relative;
-
 }
 
-#membro6{
+#membro6 {
     margin-top: 88px;
     display: flex;
     justify-content: space-around;
-    background-color:white;
+    background-color: white;
     width: 277px;
     height: 354px;
     border-radius: 40px;
-    border: 2px solid rgba(50,50,50,0.2);
+    border: 2px solid rgba(50, 50, 50, 0.2);
     position: relative;
-
 }
 
-#membro7{
+#membro7 {
     margin-top: 88px;
     display: flex;
     justify-content: space-around;
-    background-color:white;
+    background-color: white;
     width: 277px;
     height: 354px;
     border-radius: 40px;
-    border: 2px solid rgba(50,50,50,0.2);
+    border: 2px solid rgba(50, 50, 50, 0.2);
     position: relative;
-
 }
 
-.github{
+.github {
     background: url(./../imgs/site-institucional/equipe/redes-sociais/github-icon.jpeg) center;
     background-size: cover;
     position: absolute;
@@ -402,11 +393,10 @@ img{
     height: 30px;
     border-radius: 100px;
     border-style: none;
-
 }
 
 
-.linkedin{
+.linkedin {
     background: url(./../imgs/site-institucional/equipe/redes-sociais/linkedin-icon.jpeg) center;
     background-size: cover;
     position: absolute;
@@ -419,7 +409,6 @@ img{
     height: 30px;
     border-radius: 100px;
     border-style: none;
-
 }
 
 button:hover {
@@ -430,36 +419,31 @@ button:hover {
 
 /* Tela 5 */
 
-.tela5{
+.tela5 {
     background: url(./../imgs/site-institucional/imagens/Fundo-contato.png);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.banner{
+.banner {
     width: 70%;
     margin-top: 150px;
     margin-bottom: 150px;
     color: rgb(96, 34, 34);
     align-items: center;
-
-
 }
 
-.card.mensagem{
+.card.mensagem {
     display: flex;
-
 }
 
-h2{
+h2 {
     font-size: 30px;
-
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     background-color: #ffffffb5;
@@ -468,10 +452,9 @@ form{
     border-radius: 20px;
     padding: 20px;
     font-size: 20px;
+}
 
-  }
-
-form input{
+form input {
     margin-top: 0;
     background-color: #ffffff00;
     border: 0;
@@ -479,16 +462,15 @@ form input{
     padding: 0;
     border-radius: 10px;
     outline: none;
-  
-  }
+}
 
 input,
 input::-webkit-input-placeholder {
-      font-size: 16px;
-      line-height: 5;
-  }
+    font-size: 16px;
+    line-height: 5;
+}
 
-form #enviar{
+form #enviar {
     margin-top: 25px;
     background-color: white;
     color: #753a22;
@@ -499,29 +481,25 @@ form #enviar{
     border-radius: 20px;
     border: 0;
     font-size: 18px;
-    cursor:pointer;
+    cursor: pointer;
+}
 
-  }
-
-form #enviar:hover{
+form #enviar:hover {
     background-color: #753a22;
     color: white;
-
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
-
 }
 
-form a{
+form a {
     text-decoration: none;
     color: #753a22;
-
 }
 
-.card.cadastro{
+.card.cadastro {
     background-color: #ffffff00;
     color: rgb(96, 34, 34);
     height: 500px;
@@ -531,26 +509,23 @@ form a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
-  }
+}
 
-  /* footer */
+/* footer */
 
-  .footer{
+.footer {
     display: flex;
     justify-content: space-around;
     background-color: #753a22;
     color: #ffffff;
+}
 
-  }
-
-  dt{
+dt {
     font-size: 30px;
     font-weight: bold;
+}
 
-  }
-
-  dd{
+dd {
     font-size: 20px;
     margin-top: 20px;
-  }
+}
