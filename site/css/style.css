@@ -237,6 +237,10 @@ body {
 
 .cadastro_meio {
     width: 25%;
+    border-left: #753A22 solid 2px;
+    border-right: #753a22 solid 2px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .titulo_cadastro {
@@ -261,7 +265,8 @@ body {
 }
 
 .btn_cadastro {
-    margin: 0;
+    margin:0%;
+    margin-top: 50px;
     background-color: #753a22;
     color: white;
     width: 50%;
@@ -270,6 +275,7 @@ body {
     font-size: 18px;
     padding: 10px;
     cursor: pointer;
+
 }
 
 button:hover {
