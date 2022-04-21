@@ -60,11 +60,11 @@
 
       <div class="Pai_Situacao">
 
-        <div class="Situação_Grafico2">
-          <span id="Temp_atual">Temperatura atual do Sensor: <b>20.7</b></span>
+        <div class="Situação_Grafico2" id="uma">
+          <span id="Temp_atual" onmouseenter="change_color()">Temperatura atual do Sensor: <b id="temp_atual">20.7</b></span>
         </div>
 
-        <div class="Situação_Grafico">
+        <div class="Situação_Grafico" id="two">
 
           <span id="Situacao_sensor">Situação do seu sensor: <b>Ativo</b></span>
           <br>
@@ -86,7 +86,7 @@
 
         <div class="Situação_Grafico2">
 
-          <span id="Umi_atual">Umidade atual do Sensor: <b>79.3</b></span>
+          <span>Umidade atual do Sensor: <b id="umi_atual">79.3</b></span>
 
         </div>
 
@@ -173,6 +173,7 @@
 
   <div class="menu_usuario" id="menu_usuario" style="display: none;">
     <span class="nome_usuario">Gabriel</span>
+<<<<<<< HEAD
     <ul class="user_bar">
       <li> <a href=""> Configurações</a> </li>
       <li> <a href=""> Adicionar Usuário</a> </li>
@@ -188,6 +189,70 @@
       <input type="image" src="https://cdn3.iconfinder.com/data/icons/pyconic-icons-1-2/512/close-512.png"
         id="close_btn" onclick="ModalFunction()">
       <h4>Seja Bem-Vindo Gabriel</h4>
+=======
+      <ul class="user_bar">
+        <li> <a href=""> Configurações</a> </li>
+        <li> <a href=""> Adicionar Usuário</a> </li>
+        <li> <a href=""> Visão Geral </a></li>
+        <li> <a href=""> Ajuda </a></li>
+        <li> <a href="inicio.html"> Sair </a></li>
+      </ul>
+  </div>
+
+
+<div class="modal" id="modal">
+ <div class="content_modal">
+   <input type="image" src="https://cdn3.iconfinder.com/data/icons/pyconic-icons-1-2/512/close-512.png" id ="close_btn" onclick="ModalFunction()">
+     <h4>Seja Bem-Vindo Gabriel</h4>
+      
+     <form>
+     <p> Para melhorar sua experiência no nosso site precisamos colher  algumas informações </p>
+
+     <p>Você trabalha com mais de um tipo de café: <select id = "select_option" onchange="select_optionf()"> 
+      <option>...</option>
+      <option>Sim</option>
+      <option>Não</option>
+    </select>
+     </p>
+
+     <p id="select_tipocafe">Você trabalha com qual tipo de café:
+        <select> 
+          <option>Café Arábico</option>
+          <option>Café Robusto</option>
+        </select>
+      </p>
+
+      <p id="select_qtdUni">Você está utilizando quantas unidades:
+        <select> 
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10+</option>
+
+        </select>
+      </p>
+
+      <p>Nosso sistema de alertas funciona da seguinte maneira <br>
+      <img src="/site/imgs/Escala de Alertass.png"></p>
+      <p>Você irá perceber que os balões no lado do gráfico mudarão de cor de acordo com a temperatura e umidade atual.</p>
+
+    <p>Você gostaria de adicionar um novo usuario <a href="#">clique aqui</a> </p>
+    <p>Gostaria de saber como utilizar nosso site <a href="#">clique aqui</a></p>
+
+
+    </form>
+
+ </div>
+
+
+</div>
+>>>>>>> 6636b1b972597966ca8acdbf19a703736f150594
 
       <form>
         <p> Para melhorar sua experiência no nosso site precisamos colher algumas informações </p>
