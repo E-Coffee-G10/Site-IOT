@@ -213,10 +213,22 @@ body {
     border-radius: 40px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .cadastro_direito {
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cadastro_direito h4 {
+    margin: 10px;
+}
+
+.cadastro_direito .btn_cadastro {
+    align-self: center;
 }
 
 .cadastro_esquerdo {
@@ -242,25 +254,21 @@ body {
     font-size: larger;
 }
 
-#contato_select {
+.contato_select {
     font-size: larger;
-    margin-left: 50px;
+    margin-bottom: 20px;
     border-radius: 20px #753a22;
 }
 
 .btn_cadastro {
-    margin-top: 60px;
-    margin-left: 70px;
+    margin: 0;
     background-color: #753a22;
     color: white;
     width: 50%;
-    border-radius: 10px;
-    font-size: 18px;
-    padding: 10px 10px;
-    align-self: center;
-    font-size: 18px;
-    border: 0;
     border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
     cursor: pointer;
 }
 
@@ -352,6 +360,10 @@ button:hover {
 
 .form_cadastro {
     height: 40%;
+}
+
+.form_cadastro h4 {
+    margin: 10px;
 }
 
 /* -------------------- */
