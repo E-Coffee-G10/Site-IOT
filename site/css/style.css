@@ -93,7 +93,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 140vh;
     align-items: center;
 }
 
@@ -208,27 +208,25 @@ body {
     background-color: #ffffff;
     color: #4b3621;
     width: 70em;
-    height: 80%;
+    height: 65%;
     display: flex;
     border: 2px solid #753A2280;
     border-radius: 40px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 200px;
 }
 
 .cadastro_direito {
     width: 25%;
-    height: 70em;
 }
 
 .cadastro_esquerdo {
     width: 25%;
-    height: 70em;
 }
 
 .cadastro_meio {
     width: 25%;
-    height: 70em;
 }
 
 .titulo_cadastro {
@@ -279,6 +277,8 @@ button:hover {
 
 /* Forms das telas */
 
+/* Forms login */
+
 .form_login {
     display: flex;
     flex-direction: column;
@@ -325,7 +325,7 @@ button:hover {
     color: white;
 }
 
-form #cadastro {
+.form_login #cadastro {
     border: 3px solid #87994B;
     border-radius: 40px;
     background-color: white;
@@ -336,7 +336,7 @@ form #cadastro {
     cursor: pointer;
 }
 
-form #cadastro:hover {
+.form_login #cadastro:hover {
     color: white;
     background-color: #87994B;
     cursor: pointer;
@@ -347,6 +347,18 @@ form #cadastro:hover {
     color: #753a22;
     margin-top: 3px;
 }
+
+/* ---------------------- */
+
+/* form cadastro */
+
+.form_cadastro {
+    height: 40%;
+}
+
+/* -------------------- */
+
+/* --------------------------------------- */
 
 /* Footer */
 
