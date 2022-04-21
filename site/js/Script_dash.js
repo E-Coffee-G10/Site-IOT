@@ -24,9 +24,56 @@ function ModalFunction(){
   }
   else{
       Modalfunc.style.display = "none"  
-  }
-  }
+}
+}
+
+/* Função select do modal */
+
+function select_optionf(){
+
+valor_select_option = document.getElementById("select_option").value
+
+if(valor_select_option == "Não"){
+select_tipocafe.style.display = "block" 
+}
+else{
+select_tipocafe.style.display = "none" 
+}
+
+}
+
+tempera = 0
+
+function change_color(){
+ 
+
+
+var balao_temp = document.getElementById("uma")
+var balao_temp2 = document.getElementById("two")
+
+ if(tempera <= 10){
+balao_temp.style.backgroundColor = "blue"
+balao_temp2.style.backgroundColor = "blue"
+temp_atual.innerHTML = tempera
+ }
+else if (tempera <= 14 ){
+  balao_temp.style.backgroundColor = "#90ccea"
+  balao_temp2.style.backgroundColor = "#90ccea"
+  temp_atual.innerHTML = tempera
+}
+else if (tempera <=16){
+  balao_temp.style.backgroundColor = "#09eb11"
+  balao_temp2.style.backgroundColor = "#09eb11"
+  temp_atual.innerHTML = tempera 
+}
+else if (tempera <=22){
+  balao_temp.style.backgroundColor = "green"
+  balao_temp2.style.backgroundColor = "green"
   
+  temp_atual.innerHTML = tempera 
+ }
+
+}
 
 
 

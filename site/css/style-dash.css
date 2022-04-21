@@ -3,6 +3,7 @@ body{
  padding: 0px;
  background-color: #fbf8f9;
  font-family: 'Red Hat Display', sans-serif; 
+ 
 
 }
 
@@ -73,7 +74,10 @@ margin: auto;
 margin-top: 4%;
 flex-direction: column;
 
+
 }
+
+
 
 
 .Dashboard{
@@ -91,7 +95,7 @@ flex-direction: column;
   padding: 1%;
   border: solid 3px #976B59;
   border-radius: 40px;
-  background-color: #ffff;
+
    
 }
 
@@ -297,4 +301,8 @@ align-items: center;
   align-self: flex-end;
   margin-right: 3%;
   margin-top: 1%;
+}
+
+#select_tipocafe{
+ display: none;
 }
