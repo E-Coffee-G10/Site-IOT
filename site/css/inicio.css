@@ -437,24 +437,32 @@ button:hover {
 
 .card.mensagem {
     display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: #ffffffb5;
 }
 
-h2 {
+.form_incio h2 {
     font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
 
-form {
+.form_incio {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
     background-color: #ffffffb5;
     width: 100%;
     height: 70%;
     border-radius: 20px;
-    padding: 20px;
-    font-size: 20px;
 }
 
-form input {
+.form_incio input {
     margin-top: 0;
     background-color: #ffffff00;
     border: 0;
@@ -470,7 +478,7 @@ input::-webkit-input-placeholder {
     line-height: 5;
 }
 
-form #enviar {
+.form_incio #enviar {
     margin-top: 25px;
     background-color: white;
     color: #753a22;
@@ -484,7 +492,7 @@ form #enviar {
     cursor: pointer;
 }
 
-form #enviar:hover {
+.form_incio #enviar:hover {
     background-color: #753a22;
     color: white;
 }
@@ -494,12 +502,12 @@ a {
     color: white;
 }
 
-form a {
+.form_incio a {
     text-decoration: none;
     color: #753a22;
 }
 
-.card.cadastro {
+.card .cadastro {
     background-color: #ffffff00;
     color: rgb(96, 34, 34);
     height: 500px;

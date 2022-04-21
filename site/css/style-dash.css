@@ -15,20 +15,17 @@ height:85px;
 background-color: #753a22;
 }
 
-
 .titulo_dash{
   color: #753a22;
- 
 }
 
 .container_dash{
- display: flex;
- height: 100%;
- width: 90%;
- margin: auto;
- justify-content: space-between;
- align-items: center;
- 
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #logo_dash{
@@ -38,8 +35,6 @@ background-color: #753a22;
 #user_icon{
  height: 40px;
 }
-
-
 
 /* Titulo da dash e select */
 
@@ -54,27 +49,21 @@ background-color: #753a22;
   font-size: 24px;
 }
 
-
-
 .select_dash{
   height: 35px;
   border-radius: 40px;
 }
-  
-
 
 /* Secção 1 da pagina (Gráficos e "monitores de desempenho") */
 
 #section1_dash{
-height: 70vh;
-width: 90%;
-display: flex;
-margin: auto;
-margin-top: 4%;
-flex-direction: column;
-
+  height: 70vh;
+  width: 90%;
+  display: flex;
+  margin: auto;
+  margin-top: 4%;
+  flex-direction: column;
 }
-
 
 .Dashboard{
   height: 50%;
@@ -83,7 +72,6 @@ flex-direction: column;
   width: 100%;
   margin-bottom: 8%;
 }
-
 
 .div_grafico{
   height: 100%;
@@ -267,28 +255,23 @@ align-items: center;
   width: 70vw;
   height: 70vh;
   background-color: whitesmoke;
-
   border-radius: 20px;
   position: fixed;
   top:15%;
   left:15%;
   z-index: 9999;
-
-
- 
 }
 
 .content_modal{
   display: flex;
-   
   margin: auto;
   flex-direction: column;
   align-items: center;  
   width: 90%;
   height: 90%;
   min-width: 300px;
+  border-radius: 20px;
   border: 10px solid #753a22;
-  box-shadow: 0 0 0  10px white;
   position: relative;
 }
 

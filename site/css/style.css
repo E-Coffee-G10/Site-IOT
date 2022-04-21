@@ -110,11 +110,12 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-evenly;
     border-radius: 40px;
 }
 
 .card_simulador h1 {
-    margin-left: 30px;
+    margin: 10px;
     align-self: center;
 }
 
@@ -126,8 +127,8 @@ body {
     align-self: flex-start;
 }
 
-.input_simulador {
-    margin-top: 8px;
+.card_simulador .input_simulador {
+    margin: 0;
     outline: 2px solid #753a22;
     background-color: #E5E5E5;
     border: 0;
@@ -138,7 +139,7 @@ body {
 }
 
 .btn_simulador {
-    margin-top: 50px;
+    margin-top: 25px;
     color: #753a22;
     background-color: #ffffff;
     border: 2px solid #753a22;
@@ -475,3 +476,9 @@ button:hover {
     background-color: #87994B;
     cursor: pointer;
 }
+
+/* .card_simulador .icon_on_border {
+    width: 120px;
+    align-self: flex-end;
+    justify-content: flex-end;
+} */

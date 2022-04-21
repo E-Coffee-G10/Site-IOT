@@ -27,11 +27,11 @@ function calcular() {
             <ul class="list_js_02">
                 <li>
                     Você produziu <span class="output_producao">${sacas}</span> saca(s) mas perdeu 
-                    <span class='output_perda'>${perda_saca}</span> saca(s), ganhando apenas <span class="output_ganho">
+                    <span class='output_perda'>${perda_saca.toFixed(0)}</span> saca(s), ganhando apenas <span class="output_ganho">
                     ${valor_ganho_atual.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</span>. 
                 </li>
                 <li>
-                    Com o nosso serviço estima-se uma produção de <span class="output_estimativa">${estimativa_saca}</span> 
+                    Com o nosso serviço estima-se uma produção de <span class="output_estimativa">${estimativa_saca.toFixed(0)}</span> 
                     sacas e terá um ganho total de <span class="output_estimativa">
                     <span>${estimativa_valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</span>.
                     </li>
