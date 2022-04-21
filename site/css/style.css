@@ -205,33 +205,34 @@ body {
 
 /* cadastro */
 .card_cadastro {
-    padding-left: 10px;
     background-color: #ffffff;
     color: #4b3621;
-    width: 900px;
-    height: 65%;
+    width: 70em;
+    height: 80%;
     display: flex;
     border: 2px solid #753A2280;
     border-radius: 40px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .cadastro_direito {
-    width: 250px;
-    margin-left: 90px;
-    padding-right: 10px;
+    width: 25%;
+    height: 70em;
 }
 
 .cadastro_esquerdo {
-    width: 300px;
+    width: 25%;
+    height: 70em;
 }
 
 .cadastro_meio {
-    width: 200px;
+    width: 25%;
+    height: 70em;
 }
 
 .titulo_cadastro {
-    width: 900px;
+    width: 90%;
     height: 50px;
 }
 
@@ -278,28 +279,28 @@ button:hover {
 
 /* Forms das telas */
 
-form {
+.form_login {
     display: flex;
     flex-direction: column;
     width: 270px;
 }
 
-form label {
+.form_login label {
     margin: 0;
 }
 
-form input {
+.form_login input {
     outline: 2px solid #753A22;
     border: 0;
     border-radius: 40px;
     width: 95%;
 }
 
-form #emailInput {
+.form_login #emailInput {
     margin-bottom: 10px;
 }
 
-form p {
+.form_login p {
     color: #753A22;
     margin-top: 0px;
     text-align: right;
@@ -307,7 +308,7 @@ form p {
     margin-bottom: 25px;
 }
 
-form #entra {
+.form_login #entra {
     border: 3px solid #753A22;
     border-radius: 40px;
     background-color: white;
@@ -318,7 +319,7 @@ form #entra {
     cursor: pointer;
 }
 
-form #entra:hover {
+.form_login #entra:hover {
     background-color: #753a22;
     border: 3px solid #753A22;
     color: white;
