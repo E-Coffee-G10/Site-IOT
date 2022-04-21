@@ -14,6 +14,23 @@ else{
 }
 
 
+
+function ModalFunction(){
+
+  Modalfunc = document.getElementById("modal")
+  
+  if(Modalfunc.style.display == "none"){
+      Modalfunc.style.display = "flex"
+  }
+  else{
+      Modalfunc.style.display = "none"  
+  }
+  }
+  
+
+
+
+
 /* função dos selects de mudar o valor da span do relatorio  */
 
 function select_relatorio(){

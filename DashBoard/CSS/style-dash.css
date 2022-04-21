@@ -259,7 +259,10 @@ align-items: center;
  }
 
 
+ /* Modal Pop-up (Primeiros Passos) */
+
 .modal{
+  display: flex;
   width: 70vw;
   height: 70vh;
   background-color: whitesmoke;
@@ -270,12 +273,13 @@ align-items: center;
   left:15%;
   z-index: 9999;
 
+
  
 }
 
 .content_modal{
   display: flex;
-
+   
   flex-direction: column;
   align-items: center;  
   width: 90%;
@@ -284,4 +288,11 @@ align-items: center;
   border: 10px solid #753a22;
   box-shadow: 0 0 0  10px white;
   position: relative;
+}
+
+#close_btn{
+  height: 30px;
+  align-self: flex-end;
+  margin-right: 3%;
+  margin-top: 1%;
 }
