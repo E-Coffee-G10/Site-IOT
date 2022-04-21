@@ -9,6 +9,7 @@ body{
 .header_dash{ 
 display: flex;
 border-bottom: solid 3px #361E0B;
+width: 100%;
 height:85px;
 background-color: #753a22;
 }
@@ -21,8 +22,8 @@ background-color: #753a22;
 
 .container_dash{
  display: flex;
- height: 85px;
- width: 95%;
+ height: 100%;
+ width: 90%;
  margin: auto;
  justify-content: space-between;
  align-items: center;
@@ -31,18 +32,13 @@ background-color: #753a22;
 
 #logo_dash{
   height: 40px;
-  width: auto;
-  margin-bottom: 15%;
-  margin: auto;
 }
 
 #user_icon{
  height: 40px;
 }
 
-#menu_icon{
- height: 35px;   
-}
+
 
 /* Titulo da dash e select */
 
@@ -79,7 +75,7 @@ flex-direction: column;
 }
 
 
-.div_pai_dash{
+.Dashboard{
   height: 50%;
   display: flex;
   align-items: center;
@@ -147,73 +143,56 @@ flex-direction: column;
   margin-bottom: 12%;
 }
 
-
-
-
-
 /* Botões do header */
 
-#menuUser{
- display: none;
- position: fixed;
- z-index: 9999;
- right: 0%;
- top: 7.5vh;
- width: 22vh;
- height: 20vh;
- background-color: #753a22;
- border-radius: 20px;
- 
-}
-
-#menuUser .content_user{
-
-  background-color: #ffff;
- 
-  margin: 7%;
-  border-radius: 20px;
-  width: 85%;
-  height: 80%;
-
+.menu_usuario{
+  display: none ;
+  position: absolute;
+  z-index: 9999;
+  right: 0;
+  top: 9%;
+  width: 12%;
+  height: 21%;
+  background-color: #fdf2f2;
+  border-radius: 10px;
+  border: gray 2px solid;
+  opacity: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+}
+
+/* .menu_usuario{
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  
+} */
+
+.nome_usuario{
+  margin-top: 8%;
+  font-size: 18px;
 }
 
-#Funcionalidade{
-display: none;
-position: fixed;
-z-index: 9999;
-left: 0%;
-top: 8.5vh;
-width: 20vh;
-height: 100vh;
-background-color: #753a22;
+.menu_usuario  li{
+  margin-top: 4%;
 
 }
-
-#Funcionalidade .content_func{
-
-background-color: #f9f7f7;
-margin: 15% auto;
-padding: 25px;
-border-radius: 5px;
-width: 70%;
-height: auto;
-
-opacity: 90%;
-
-display: flex;
-flex-direction: column;
-align-items: center;
-
-border:solid 2px radius;
-border-radius: 240px;
-
+.menu_usuario a{
+  color: black;
+  text-decoration: none;
 }
 
+.user_bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid black;
+  padding: 0;
+  font-size: 18px;
+  list-style: none;
+}
 
 /* Titulo Relatorio e Select */
 
@@ -279,3 +258,30 @@ align-items: center;
   font-weight: bolder
  }
 
+
+.modal{
+  width: 70vw;
+  height: 70vh;
+  background-color: whitesmoke;
+
+  border-radius: 20px;
+  position: fixed;
+  top:15%;
+  left:15%;
+  z-index: 9999;
+
+ 
+}
+
+.content_modal{
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;  
+  width: 90%;
+  height: 90%;
+  min-width: 300px;
+  border: 10px solid #753a22;
+  box-shadow: 0 0 0  10px white;
+  position: relative;
+}
