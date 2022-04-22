@@ -251,6 +251,7 @@ h1 {
     align-self: center;
     display: flex;
     width: 80vw;
+    justify-content: space-around;
 }
 
 .membros_baixo {
