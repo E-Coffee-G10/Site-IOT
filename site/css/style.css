@@ -490,7 +490,7 @@ button:hover {
 } */
 
 
-/*-------------------Cadastro de usuario*/
+/*Cadastro de usuario dentro da dashboard*/
 
 body{
     font-family: 'Red Hat Display';
@@ -540,7 +540,6 @@ body{
 
 .form-cadastro-usuario label{
     margin-bottom: 2%;
-
 }
 
 .form-cadastro-usuario input{
@@ -567,7 +566,6 @@ body{
     color:white;
     cursor: pointer;
     font-family: 'Red Hat Display';
-    
 }
 
 .icon-usuario{
@@ -581,3 +579,5 @@ body{
     width: 89px;
     height: 88px;
 }
+
+/* -------------------- */
