@@ -2,6 +2,7 @@ body {
     font-family: 'Red Hat Display';
     margin: 0;
     padding: 0;
+    background-color: #fbf8f9;
 }
 
 /* Header */
@@ -78,6 +79,11 @@ h1 {
     font-weight: bolder;
     margin-top: 15%;
     margin-left: 47%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 /*Tela 2*/
@@ -377,10 +383,15 @@ h1 {
     border-style: none;
 }
 
+button{
+    transition-duration: 1s;
+
+}
+
 button:hover {
-    transition-duration: 0.4s;
     transform: scale(110%, 110%);
     cursor: pointer;
+    
 }
 
 /* Tela 5 */
@@ -388,6 +399,7 @@ button:hover {
 .tela5 {
     background: url(./../imgs/site-institucional/imagens/coffee_background.jpg);
     background-size: cover;
+    margin-top: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -410,22 +422,46 @@ button:hover {
     background-color: #ffffffb5;
 }
 
+.form_incio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #ffffff5e;
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+
+}
+
 .form_incio h2 {
     font-size: 30px;
     display: flex;
     justify-content: center;
+    
 }
 
-.form_incio {
+.gostosa{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+    width: 100%;
+
+}
+.div_cima{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    font-size: 20px;
-    background-color: #ffffffb5;
-    width: 100%;
-    height: 70%;
-    border-radius: 20px;
+    width: 45%;
+
+}
+
+.div_baixo{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
 }
 
 .form_incio input {
@@ -446,7 +482,7 @@ input::-webkit-input-placeholder {
 
 .form_incio #enviar {
     margin-top: 25px;
-    background-color: white;
+    background-color: #ffffff00;
     color: #753a22;
     font-weight: bold;
     padding: 10px 15px;
@@ -458,19 +494,27 @@ input::-webkit-input-placeholder {
     cursor: pointer;
 }
 
-.form_incio #enviar:hover {
-    background-color: #753a22;
-    color: white;
+.form_incio #enviar{
+    margin-top: 5vh;
+
 }
 
-a {
-    text-decoration: none;
-    color: white;
+
+.form_incio #enviar:hover {
+    background-color: #753a22;
+
 }
 
 .form_incio a {
     text-decoration: none;
     color: #753a22;
+    width: 100%;
+    height: 100%;
+}
+
+.form_incio a:hover {
+    color: white;
+
 }
 
 .card .cadastro {
