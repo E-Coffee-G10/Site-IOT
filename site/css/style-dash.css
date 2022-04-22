@@ -58,7 +58,6 @@ background-color: #753a22;
 /* Secção 1 da pagina (Gráficos e "monitores de desempenho") */
 
 #section1_dash{
-<<<<<<< HEAD
   height: 70vh;
   width: 90%;
   display: flex;
@@ -67,21 +66,6 @@ background-color: #753a22;
   flex-direction: column;
 }
 
-=======
-height: 70vh;
-width: 90%;
-display: flex;
-margin: auto;
-margin-top: 4%;
-flex-direction: column;
-
-
-}
-
-
-
-
->>>>>>> 6636b1b972597966ca8acdbf19a703736f150594
 .Dashboard{
   height: 50%;
   display: flex;
