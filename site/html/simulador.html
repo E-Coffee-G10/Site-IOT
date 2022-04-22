@@ -1,61 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simulador Financeiro</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="../imgs/site-institucional/logo.png"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../imgs/site-institucional/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <script src="../js/script.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="header">
-        <div class="container">
-            <img src="./../imgs/logo-ofc.png" height="30px">
-            <ul class="navbar">
-                <li><a href="./inicio.html">Início</a></li>
-                <li><a class="now" href="#"><img src="../imgs/grao-de-cafe.png" class="now_img">Simulador</a></li>
-                <li><a href="./login.html">Entrar</a></li>
-                <li><a href="./cadastro.html">Cadastro</a></li>
-            </ul>
-        </div>
+      <div class="container">
+        <img src="./../imgs/logo-ofc.png" height="30px" />
+        <ul class="navbar">
+          <li><a href="./inicio.html">Início</a></li>
+          <li>
+            <a class="now" href="#"
+              ><img
+                src="../imgs/grao-de-cafe.png"
+                class="now_img"
+              />Simulador</a
+            >
+          </li>
+          <li><a href="./login.html">Entrar</a></li>
+          <li><a href="./cadastro.html">Cadastro</a></li>
+        </ul>
+      </div>
     </div>
     <div class="banner_simulador">
-        <div class="container simulador">
-            <div class="card_simulador" id="container_output">
-                <h1>Calculadora Financeira</h1>
-                
-                <span>Quantidade total de cafeeiros</span>               
-                <input min="0" class="input_simulador" type="number" id="input_qnt_cafeeiro">
-                
-                <span>Quantidade total de sacas produzidas</span>               
-                <input min="0" class="input_simulador" type="number" id="input_qnt_sacas">
-                
-                <span>Valor de cada saca</span>
-                <input min="0" class="input_simulador" type="number" id="input_preco_saca">
+      <div class="container simulador">
+        <div class="card_simulador" id="container_output">
+          <h1>Calculadora Financeira</h1>
 
-                <button class="btn_simulador" onclick="calcular()">Calcular</button>
+          <span>Quantidade total de cafeeiros</span>
+          <input
+            min="0"
+            class="input_simulador"
+            type="number"
+            id="input_qnt_cafeeiro"
+          />
 
-                <div id="resultado"></div>
-            </div>
-            <div class="icon-usuario">
-                <img src="./../imgs/icon-input.png" alt="">
-            </div>
+          <span>Quantidade total de sacas produzidas</span>
+          <input
+            min="0"
+            class="input_simulador"
+            type="number"
+            id="input_qnt_sacas"
+          />
+
+          <span>Valor de cada saca</span>
+          <input
+            min="0"
+            class="input_simulador"
+            type="number"
+            id="input_preco_saca"
+          />
+
+          <button class="btn_simulador" onclick="calcular()">Calcular</button>
+
+          <div id="resultado"></div>
         </div>
+        <div class="icon-usuario">
+          <img src="./../imgs/icon-input.png" alt="" />
+        </div>
+      </div>
     </div>
     <div class="footer">
-        <div class="container">
-            <h4>&copy; E-Coffee</h4>
-        </div>
+      <div class="container">
+        <h4>&copy; E-Coffee</h4>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
