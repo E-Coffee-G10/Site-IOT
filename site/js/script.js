@@ -32,8 +32,8 @@ function calcular() {
                 </li>
                 <li>
                     Com o nosso serviço estima-se uma produção de <span class="output_estimativa">${estimativa_saca.toFixed(0)}</span> 
-                    sacas e terá um ganho total de <span class="output_estimativa">
-                    <span>${estimativa_valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</span>.
+                    sacas e terá um ganho total de 
+                    <span class="output_estimativa">${estimativa_valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</span>.
                     </li>
                 <li>
                     Contratando o nosso serviço é possivel reduzir essa perda na produção em até <span class="output_reducao">50%</span>.

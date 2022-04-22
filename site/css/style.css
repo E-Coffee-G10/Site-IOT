@@ -121,9 +121,7 @@ body {
 
 .card_simulador span {
     margin-bottom: 4px;
-    margin-left: 40px;
-    color: #753a22;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .card_simulador .input_simulador {
@@ -436,7 +434,6 @@ button:hover {
     margin: 0;
     list-style: none;
     width: 85%;
-    padding: 25px 25px;
 }
 
 .output_resultado li {
