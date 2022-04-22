@@ -279,7 +279,6 @@ body {
     font-size: 18px;
     padding: 10px;
     cursor: pointer;
-
 }
 
 button:hover {
@@ -303,7 +302,6 @@ button:hover {
 
 .form_login label {
     margin: 0;
-    
 }
 
 .form_login input {
@@ -314,7 +312,6 @@ button:hover {
     padding:8px;
     margin-top: 4px;
     margin-bottom: 5px;
-    
 }
 
 .form_login #emailInput {
@@ -338,7 +335,6 @@ button:hover {
     height: 35px;
     cursor: pointer;
     font-family:'Red Hat Display';
-
 }
 
 .form_login #entra:hover {
@@ -357,7 +353,6 @@ button:hover {
     float: right;
     cursor: pointer;
     font-family:'Red Hat Display';
-
 }
 
 .form_login #cadastro:hover {
