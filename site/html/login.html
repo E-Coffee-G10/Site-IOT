@@ -40,9 +40,10 @@
                     <span>Senha</span>
                     <label for="senhaInput"></label>
                     <input class="input_login" type="password" id="senhaInput">
+                    <small id="erro"></small>
                     <p><a href="#" class="esquecer">Esqueceu a senha?</p></a>
                     <div class="button_login" id="button-container">
-                        <button id="entra" type="button">
+                        <button onclick="entrar()" id="entra" type="button">
                             Entrar
                         </button>
                         <button id="cadastro" type="button">
@@ -61,3 +62,27 @@
 </body>
 
 </html>
+<script>
+    
+       
+
+    function entrar(){
+        var emailVar = emailInput.value
+        var senhaVar = senhaInput.value    
+    console.log(emailVar)
+    console.log(senhaVar)
+        if(emailVar.length == 0  || senhaVar.length == 0){
+            erro.style.display = "block"
+            erro.innerHTML = `Preencha todos os campos para prosseguir!`
+            
+        } else if (emailVar.indexOf("@") == -1 || emailVar.indexOf(".com") == -1 || senhaVar.length <=7){
+            erro.style.display = "block"
+            erro.innerHTML = `Email ou senha invalido! Verifique e tente novamente`
+            
+        }else{
+            erro.innerHTML = `email valido`
+        }//esse else está aqui só por enquanto que não tem a API!
+       
+    }
+
+</script>

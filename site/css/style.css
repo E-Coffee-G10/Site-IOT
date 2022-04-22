@@ -343,6 +343,11 @@ button:hover {
     color: white;
 }
 
+.form_login #erro{
+    color: red ;    
+}
+
+
 .form_login #cadastro {
     border: 2px solid #87994B;
     border-radius: 20px;
@@ -359,6 +364,11 @@ button:hover {
     color: white;
     background-color: #87994B;
     cursor: pointer;
+}
+
+#cadastro a {
+    text-decoration: none;
+    color:#753a22;
 }
 
 .esquecer {
