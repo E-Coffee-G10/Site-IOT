@@ -23,19 +23,6 @@ function ModalFunction() {
   }
 }
 
-/* Função select do modal */
-
-function select_optionf() {
-
-  valor_select_option = document.getElementById("select_option").value
-
-  if (valor_select_option == "Não") {
-    select_tipocafe.style.display = "block"
-  } else {
-    select_tipocafe.style.display = "none"
-  }
-
-}
 
 tempera = 0
 
