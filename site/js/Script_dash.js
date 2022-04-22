@@ -24,7 +24,7 @@ function ModalFunction() {
 }
 
 
-tempera = 0
+/* tempera = 0
 
 function change_color() {
 
@@ -50,7 +50,7 @@ function change_color() {
     temp_atual.innerHTML = tempera
   }
 
-}
+} */
 
 /* função dos selects de mudar o valor da span do relatorio  */
 
