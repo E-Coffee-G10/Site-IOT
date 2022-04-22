@@ -64,40 +64,6 @@ h1 {
 }
 
 
-/* .header{
-    color: white;
-}
-
-.container{
-    width:80%;
-    margin: auto;
-} 
-
-.header .container{
-    display:flex;
-    justify-content:space-between;
-}
-
-img{
-    margin-top: 10px;
-    width: 60px;
-    height: 60px;
-}
-
-.navbar{
-    display: flex;
-    width: 400px;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-
-}
-
-.navbar a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-} */
 
 /* --------------------------- */
 
@@ -105,14 +71,13 @@ img{
     height: 570px;
     display: flex;
     color: white;
-    width: 539px;
 }
 
 .slogan p {
     font-size: 40px;
     font-weight: bolder;
-    margin-top: 22%;
-    margin-left: 25%;
+    margin-top: 15%;
+    margin-left: 47%;
 }
 
 /*Tela 2*/
