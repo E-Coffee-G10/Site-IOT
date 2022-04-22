@@ -488,3 +488,96 @@ button:hover {
     align-self: flex-end;
     justify-content: flex-end;
 } */
+
+
+/*-------------------Cadastro de usuario*/
+
+body{
+    font-family: 'Red Hat Display';
+    padding: 0;
+    margin: 0;
+}
+
+.header-usuario{
+    background-color:#753a22;
+    display:flex;
+    align-items:center;
+    height: 10vh;
+}
+
+.container-header-usuario{
+    margin-left: 35px;
+    width:95%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.container-cadastro-usuario{
+    background-color: #fbf8f9;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.cadastro-usuario{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    height: 500px;
+    width: 637px;
+    background-color: #ffff;
+    color:#753a22;
+    border: 1px solid #753a22;
+    border-radius:40px;
+}
+
+.form-cadastro-usuario{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 15px;
+}
+
+.form-cadastro-usuario label{
+    margin-bottom: 2%;
+
+}
+
+.form-cadastro-usuario input{
+    background-color: #fbf8f9;
+    width:392px;
+    height:32px;
+    text-align: center;
+    border: 1px solid #753a22;
+    border-radius: 40px;
+    margin-bottom: 5%;
+}
+
+.cadastrarUsuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    background-color: #87994b;
+    padding: 10px 15px;
+    height: 31px;
+    width: 206px;
+    font-size: 20px;
+    border: 0px;
+    color:white;
+    cursor: pointer;
+    font-family: 'Red Hat Display';
+    
+}
+
+.icon-usuario{
+    z-index:10%;
+    position: relative;
+    top:41%;
+    right: 3%;
+}
+
+.icon-usuario img{
+    width: 89px;
+    height: 88px;
+}
