@@ -71,7 +71,7 @@ background-color: #753a22;
   display: flex;
   align-items: center;
   width: 100%;
-  margin-bottom: 8%;
+  margin-bottom: 11%;
 }
 
 .div_grafico{
@@ -130,7 +130,7 @@ background-color: #753a22;
  
   display: flex;
   align-items: center;
-  margin-bottom: 12%;
+  margin-bottom: 8%;
 }
 
 /* Botões do header */
@@ -192,7 +192,7 @@ width: 90%;
 display: flex;
 justify-content: space-between;
 margin: auto;
-margin-top: 10%;
+margin-top: 15%;
 border-bottom:solid 0.1px #753a22;
 align-items: center;
 font-size: 24px;
@@ -285,4 +285,9 @@ align-items: center;
 
 #select_tipocafe{
  display: none;
+}
+
+#Img_Alertas{
+  height: 200px;
+  width: 70%;
 }
