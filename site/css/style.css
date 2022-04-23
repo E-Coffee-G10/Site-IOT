@@ -92,7 +92,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     align-items: center;
 }
 
@@ -205,21 +205,18 @@ body {
 
 /* cadastro */
 .card_cadastro {
-    background-color: #fbf8f9;
-    color: #753a22;
+    background-color: #ffffff;
+    color: #4b3621;
     width: 70em;
-    height: 65%;
+    height: 105vh;
     display: flex;
-    border: 2px solid #753a22;
+    border: 2px solid #753A2280;
     border-radius: 40px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
 }
 
-.card_cadastro h1{
-    text-align: center;
-}
 
 .cadastro_direito {
     width: 25%;
@@ -251,23 +248,49 @@ body {
 .titulo_cadastro {
     width: 90%;
     height: 50px;
+    
 }
 
 .card_cadastro .input_cadastro {
     outline: 2px solid #753a22;
-    background-color: #ffffff;
+    background-color: #E5E5E5;
     border: 0;
     padding: 8px;
     border-radius: 20px;
+    width: auto;
     font-size: larger;
 }
-
-.contato_select {
-    font-size: larger;
-    margin-bottom: 20px;
-    border-radius: 20px #753a22;
+/*------------------------ validações cadastro -------------------------*/
+#validacao_nome{
+    color: #11d100;
 }
-
+#validacao_cnpj{
+    color: #11d100;
+}
+#validação_telefone{
+    color: #11d100;
+}
+#validacao_email {
+    color: #11d100;
+    }
+#validacao_cep {
+     color: #11d100;
+        }
+#validacao_rua {
+     color: #11d100;
+               }
+ #validacao_endereco {
+    color: #11d100;
+                }
+  #validacao_cidade {
+   color: #11d100;
+                   }
+ #validacao_senha {
+ color: #11d100;
+                  }
+ #validacao_senha2 {
+ color: #11d100;
+             }
 .btn_cadastro {
     margin:0%;
     margin-top: 50px;
@@ -279,12 +302,14 @@ body {
     font-size: 18px;
     padding: 10px;
     cursor: pointer;
+
 }
 
 button:hover {
-    background-color: #87994B;
+    background-color: #27850b;
     cursor: pointer;
 }
+
 
 /* --------------------- */
 
