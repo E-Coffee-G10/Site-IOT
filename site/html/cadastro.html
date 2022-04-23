@@ -1,289 +1,300 @@
 <!DOCTYPE html>
 <html lang="pt">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css" />
     <link rel="shortcut icon" href="../imgs/site-institucional/logo.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-        
-       
-
-</head>
-
-<body>
+  <body>
     <div class="header">
-        <div class="container">
-            <img src="/site/imgs/logo-ofc.png" height="40px">
-            <ul class="navbar">
-                <li><a href="./inicio.html">Início</a></li>
-                <li><a href="./simulador.html">Simulador</a></li>
-                <li><a href="./login.html" href="">Login</a></li>
-                <li><a class="now" href="./cadastro.html"><img src="../imgs/grao-de-cafe.png" class="now_img">Cadastro</a></li>
-            </ul>
-        </div>
+      <div class="container">
+        <img src="/site/imgs/logo-ofc.png" height="40px" />
+        <ul class="navbar">
+          <li><a href="./inicio.html">Início</a></li>
+          <li><a href="./simulador.html">Simulador</a></li>
+          <li><a href="./login.html" href="">Login</a></li>
+          <li>
+            <a class="now" href="./cadastro.html"
+              ><img src="../imgs/grao-de-cafe.png" class="now_img" />Cadastro</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="banner_cadastro">
-
-        <div class="card_cadastro">
-
-            <div class="titulo_cadastro">
-                <h1> Cadastre-se: </h1>
-            </div>
-
-            <div class="cadastro_esquerdo">
-                <form class="form_cadastro" id="form_cadastro">
-
-                        <div class="validacao_cadastro">
-                    <label for="nome_empresa_input"><h4>Nome da Empresa:</h4></label>
-                    <input type="text" id="nome_empresa_input" class="input_cadastro" placeholder="Nome da Empresa">
-                    <small id="validacao_nome"></small>
-                       </div>
-                    
-                       <div class="validacao_cadastro">
-                    <label for="cnpj_input"><h4>CNPJ:</h4></label>
-                    <input type="text" id="cnpj_input" class="input_cadastro" placeholder=" XX.XXX.XXX/XXX-XX">
-                    <small id="validacao_cnpj"> </small>
-                       </div>
-                  
-
-                       <div class="validacao_cadastro">
-                    <label for="telefone_input"><h4>Telefone p/ Contato:</h4></label>
-                    <input type="text" id="telefone_input" class="input_cadastro" placeholder="DDD+987654321">
-                    <small id="validacao_telefone" ></small>
-                     </div>
-
-                     <div class="validacao_cadastro" class="sucess">
-                    <label for="email_cadastro_input"><h4>Email:</h4></label>
-                    <input  type="text" id="email_cadastro_input" class="input_cadastro" placeholder="exemplo@email.com">
-                    <small id="validacao_email"> </small>
-                     </div>
-                     
-                </form>
-
-            </div>
-            <div class="cadastro_meio" >
-                <form class="form_cadastro" id="form_cadastro">
-
-                      <div class="validacao_cadastro">
-                    <label for="cep_input"> <h4>CEP:</h4></label>
-                    <input type="text" id="cep_input" class="input_cadastro" placeholder="cep da sede">
-                    <small id="validacao_cep"> </small>
-                      </div>
-                    
-                      <div class="validacao_cadastro">
-                    <label for="rua_input"><h4>Rua/Logradouro:</h4></label>
-                    <input type="text" id="rua_input" class="input_cadastro" placeholder="rua, travessa ou avenida">
-                    <small id="validacao_rua"> </small>
-                      </div>
-
-                      <div class="validacao_cadastro">
-                    <label for="n_endereco_input"><h4>N° Endereço:</h4></label>
-                    <input type="text" id="n_endereco_input" class="input_cadastro" placeholder="Numero do endereço">
-                    <small id="validacao_endereco"> </small>
-                      </div>
-
-                     <div class="validacao_cadastro">
-                    <label for="cidade_input"><h4>Cidade</h4></label>
-                    <input type="text" id="cidade_input" class="input_cadastro" placeholder="Cidade">
-                    <small id="validacao_cidade"> </small>
-                     </div>
-                </form>
-            </div>
-            <div class="cadastro_direito">
-                <form class="form_cadastro" id="form_cadastro">
-
-                     <div class="validacao_cadastro">
-                    <label for="senha_input"><h4>Senha:</h4></label>
-                    <input type="password" id="senha_input" class="input_cadastro" placeholder="*******">
-                    <small id="validacao_senha"> </small>
-                     </div>
-                  
-                     <div class="validacao_cadastro">
-                    <label for="senha_input2"> <h4>Confirmar Senha:</h4></label>
-                    <input type="password" id="senha_input2" class="input_cadastro"  placeholder="*******">
-                    <small id="validacao_senha2"> </small>
-                    </div>
-                </form>
-                <button class="btn_cadastro" onclick="cadastrar_input()" type="button">Cadastrar</button>
-              
-         </div>
-          
-
+      <div class="card_cadastro">
+        <div class="titulo_cadastro">
+          <h1>Cadastre-se:</h1>
         </div>
+
+        <div class="cadastro_esquerdo">
+          <form class="form_cadastro" id="form_cadastro">
+            <div class="validacao_cadastro">
+              <label for="nome_empresa_input"><h4>Nome da Empresa:</h4></label>
+              <input
+                type="text"
+                id="nome_empresa_input"
+                class="input_cadastro"
+                placeholder="Nome da Empresa"
+              />
+              <small id="validacao_nome"></small>
+            </div>
+
+            <div class="validacao_cadastro">
+              <label for="cnpj_input"><h4>CNPJ:</h4></label>
+              <input
+                type="text"
+                id="cnpj_input"
+                class="input_cadastro"
+                placeholder=" XX.XXX.XXX/XXX-XX"
+              />
+              <small id="validacao_cnpj"> </small>
+            </div>
+
+            <div class="validacao_cadastro">
+              <label for="telefone_input"><h4>Telefone p/ Contato:</h4></label>
+              <input
+                type="text"
+                id="telefone_input"
+                class="input_cadastro"
+                placeholder="DDD+987654321"
+              />
+              <small id="validacao_telefone"></small>
+            </div>
+
+            <div class="validacao_cadastro" class="sucess">
+              <label for="email_cadastro_input"><h4>Email:</h4></label>
+              <input
+                type="text"
+                id="email_cadastro_input"
+                class="input_cadastro"
+                placeholder="exemplo@email.com"
+              />
+              <small id="validacao_email"> </small>
+            </div>
+          </form>
+        </div>
+        <div class="cadastro_meio">
+          <form class="form_cadastro" id="form_cadastro">
+            <div class="validacao_cadastro">
+              <label for="cep_input"> <h4>CEP:</h4></label>
+              <input
+                type="text"
+                id="cep_input"
+                class="input_cadastro"
+                placeholder="cep da sede"
+              />
+              <small id="validacao_cep"> </small>
+            </div>
+
+            <div class="validacao_cadastro">
+              <label for="rua_input"><h4>Rua/Logradouro:</h4></label>
+              <input
+                type="text"
+                id="rua_input"
+                class="input_cadastro"
+                placeholder="rua, travessa ou avenida"
+              />
+              <small id="validacao_rua"> </small>
+            </div>
+
+            <div class="validacao_cadastro">
+              <label for="n_endereco_input"><h4>N° Endereço:</h4></label>
+              <input
+                type="text"
+                id="n_endereco_input"
+                class="input_cadastro"
+                placeholder="Numero do endereço"
+              />
+              <small id="validacao_endereco"> </small>
+            </div>
+
+            <div class="validacao_cadastro">
+              <label for="cidade_input"><h4>Cidade</h4></label>
+              <input
+                type="text"
+                id="cidade_input"
+                class="input_cadastro"
+                placeholder="Cidade"
+              />
+              <small id="validacao_cidade"> </small>
+            </div>
+          </form>
+        </div>
+        <div class="cadastro_direito">
+          <form class="form_cadastro" id="form_cadastro">
+            <div class="validacao_cadastro">
+              <label for="senha_input"><h4>Senha:</h4></label>
+              <input
+                type="password"
+                id="senha_input"
+                class="input_cadastro"
+                placeholder="*******"
+              />
+              <small id="validacao_senha"> </small>
+            </div>
+
+            <div class="validacao_cadastro">
+              <label for="senha_input2"> <h4>Confirmar Senha:</h4></label>
+              <input
+                type="password"
+                id="senha_input2"
+                class="input_cadastro"
+                placeholder="*******"
+              />
+              <small id="validacao_senha2"> </small>
+            </div>
+          </form>
+          <button
+            class="btn_cadastro"
+            onclick="cadastrar_input()"
+            type="button"
+          >
+            Cadastrar
+          </button>
+        </div>
+      </div>
     </div>
     <div class="footer">
-        <div class="container">
-            <h4>&copy; E-Coffee</h4>
-        </div>
+      <div class="container">
+        <h4>&copy; E-Coffee</h4>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
 
 <script>
-function cadastrar_input() {
- 
+  function cadastrar_input() {
+    //Nome Empresa
+    var nome_empresa = nome_empresa_input.value;
 
-    //*Nome Empresa
-
-   var nome_empresa = nome_empresa_input.value
-
-   console.log(nome_empresa)
+    console.log(nome_empresa);
 
     if (nome_empresa == "") {
-
-        validacao_nome.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`
-    } 
-    else if (nome_empresa.lenght < 4 ) {
-        validacao_nome.innerHTML =`<span style="color: red">Nome Invalido !! Verifique se esta digitando corretamente</span>`   
-    }       
-     else {
-        validacao_nome.innerHTML = `Valido`
+      validacao_nome.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`;
+    } else if (nome_empresa.lenght < 4) {
+      validacao_nome.innerHTML = `<span style="color: red">Nome Invalido !! Verifique se esta digitando corretamente</span>`;
+    } else {
+      validacao_nome.innerHTML = `Valido`;
     }
 
     //CNPJ
+    var cnpj = cnpj_input.value;
 
-    var cnpj = cnpj_input.value
-
-    console.log(cnpj)
+    console.log(cnpj);
 
     if (cnpj == "") {
-        validacao_cnpj.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`
-    }
-    else if (cnpj.lenght < 18) {
-        validacao_cnpj.innerHTML = `<span style="color: red">CNPJ Invalido !! Verifique se esta digitando corretamente</span>`
+      validacao_cnpj.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`;
+    } else if (cnpj.lenght < 18) {
+      validacao_cnpj.innerHTML = `<span style="color: red">CNPJ Invalido !! Verifique se esta digitando corretamente</span>`;
     } else {
-        validacao_cnpj.innerHTML =`Valido`
+      validacao_cnpj.innerHTML = `Valido`;
     }
 
     //telefone
-    var telefone_cadastro = telefone_input.value
+    var telefone_cadastro = telefone_input.value;
 
-    console.log(telefone_cadastro)
+    console.log(telefone_cadastro);
 
-    if (telefone_cadastro = "") {
-        validacao_telefone.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`
-
+    if ((telefone_cadastro = "")) {
+      validacao_telefone.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`;
     } else if (telefone_cadastro.lenght < 11) {
-
-        validacao_telefone.innerHTML =`Valido`
-
+      validacao_telefone.innerHTML = `Valido`;
     } else {
-        validacao_telefone.innerHTML =  `<span style="color: red">Telefone Invalido !! Verifique se esta digitando corretamente</span>`
-    } 
-        
-    
+      validacao_telefone.innerHTML = `<span style="color: red">Telefone Invalido !! Verifique se esta digitando corretamente</span>`;
+    }
 
     //email
-    var email_cadastro = email_cadastro_input.value
-    
-    console.log(email_cadastro)
-    
-    if (email_cadastro == "" ) {
-        
-        validacao_email.style.display = "block"
-        validacao_email.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`
-    }
-   else if(email_cadastro.indexOf("@") && email_cadastro.endsWith(".com")) {
-    validacao_email.innerHTML = `Valido`
-            }
-    
-    else {
-        validacao_email.innerHTML = `<span style="color: red">Email Invalido !! Verifique se esta digitando corretamente</span>`
-    }
+    var email_cadastro = email_cadastro_input.value;
 
+    console.log(email_cadastro);
+
+    if (email_cadastro == "") {
+      validacao_email.style.display = "block";
+      validacao_email.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`;
+    } else if (email_cadastro.indexOf("@") && email_cadastro.endsWith(".com")) {
+      validacao_email.innerHTML = `Valido`;
+    } else {
+      validacao_email.innerHTML = `<span style="color: red">Email Invalido !! Verifique se esta digitando corretamente</span>`;
+    }
 
     //cep
+    var cep_cadastro = cep_input.value;
 
-    var cep_cadastro = cep_input.value
-
-    console.log(cep_cadastro)
+    console.log(cep_cadastro);
 
     if (cep_cadastro == "") {
-        validacao_cep.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`
+      validacao_cep.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`;
     } else {
-        validacao_cep.innerHTML = 'Valido'
+      validacao_cep.innerHTML = "Valido";
     }
 
     //rua
+    var rua_cadastro = rua_input.value;
 
-    var rua_cadastro = rua_input.value
-
-    console.log(rua_cadastro)
+    console.log(rua_cadastro);
 
     if (rua_cadastro == "") {
-        validacao_rua.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`
+      validacao_rua.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`;
     } else {
-        validacao_rua.innerHTML = 'Valido'
+      validacao_rua.innerHTML = "Valido";
     }
 
-     //N Endereço
+    //N Endereço
+    var endereco_cadastro = n_endereco_input.value;
 
-     var endereco_cadastro = n_endereco_input.value
+    console.log(endereco_cadastro);
 
-console.log(endereco_cadastro)
+    if (endereco_cadastro == "") {
+      validacao_endereco.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`;
+    } else {
+      validacao_endereco.innerHTML = "Valido";
+    }
 
-if (endereco_cadastro == "") {
-    validacao_endereco.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`
-} else {
-    validacao_endereco.innerHTML = 'Valido'
-}
+    //Cidade
+    var cidade_cadastro = cidade_input.value;
 
- //Cidade
+    console.log(cidade_cadastro);
 
- var cidade_cadastro = cidade_input.value
+    if (cidade_cadastro == "") {
+      validacao_cidade.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`;
+    } else {
+      validacao_cidade.innerHTML = "Valido";
+    }
 
-console.log(cidade_cadastro)
+    //Senha
+    var senha_cadastro = senha_input.value;
 
-if (cidade_cadastro == "") {
-    validacao_cidade.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`
-} else {
-    validacao_cidade.innerHTML = 'Valido'
-}
+    console.log(senha_cadastro);
 
- //Senha
+    if (senha_cadastro == "") {
+      validacao_senha.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`;
+    } else {
+      validacao_senha.innerHTML = "Valido";
+    }
 
- var senha_cadastro = senha_input.value
+    // confirmar Senha
+    var senha_cadastro2 = senha_input2.value;
+    var senha_cadastro = senha_input.value;
 
-console.log(senha_cadastro)
+    console.log(senha_cadastro);
 
-if (senha_cadastro == "") {
-    validacao_senha.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`
-} else {
-    validacao_senha.innerHTML = 'Valido'
-}
-// confirmar Senha
-
-var senha_cadastro2 = senha_input2.value
-var senha_cadastro = senha_input.value
-
-
-console.log(senha_cadastro)
-
-if (senha_cadastro2 == "") {
-    validacao_senha2.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`
-} else if (senha_cadastro2  !=  senha_cadastro  ) {
-    validacao_senha2.innerHTML = `<span style="color: red">Senhas não conferem !!!</span>`
-}
-else {
-    validacao_senha2.innerHTML = 'Valido'
-}
-
-
-
-
-
-}
-    </script>
-
-
-
+    if (senha_cadastro2 == "") {
+      validacao_senha2.innerHTML = `<span style="color: red">Preencha este campo para prosseguir !!!</span>`;
+    } else if (senha_cadastro2 != senha_cadastro) {
+      validacao_senha2.innerHTML = `<span style="color: red">Senhas não conferem !!!</span>`;
+    } else {
+      validacao_senha2.innerHTML = "Valido";
+    }
+  }
+</script>
