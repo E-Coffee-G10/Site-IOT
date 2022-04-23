@@ -33,33 +33,140 @@
     <div id="barra_dash2">
 
         <div id="box1"> <p>10°C</p> <br><span id="sensBox1">0</span> Sensores</div>
-        <div id="box2"> <p>15°C</p> <br><span id="sensBox2">0</span> Sensores</div>
-        <div id="box3"> <p>17°C</p> <br><span id="sensBox3">0</span> Sensores</div>
-        <div id="box4"> <p>19°C | 21°C</p> <br><span id="sensBox4">0</span> Sensores</div>
-        <div id="box5"> <p>22°C</p> <br><span id="sensBox5">0</span> Sensores</div>
-        <div id="box6"> <p>24°C</p> <br><span id="sensBox6">0</span> Sensores</div>
+          <div id="box2"> <p>15°C</p> <br><span id="sensBox2">0</span> Sensores</div>
+            <div id="box3"> <p>17°C</p> <br><span id="sensBox3">0</span> Sensores</div>
+              <div id="box4"> <p>19°C | 21°C</p> <br><span id="sensBox4">0</span> Sensores</div>
+            <div id="box5"> <p>22°C</p> <br><span id="sensBox5">0</span> Sensores</div>
+          <div id="box6"> <p>24°C</p> <br><span id="sensBox6">0</span> Sensores</div>
         <div id="box7"> <p>27°C</p> <br><span id="sensBox7">0</span> Sensores</div>
 
     </div>
 
-    <br> <br>
+    <br> 
+    
+      <h1 style="color: #753a22; text-align: center; font-weight: 900; font-style: italic;">Visão geral dos sensores</h1>
 
-    <div id="setor_cima">
+         <div id="unidade">
+              <b style="font-size: x-large; color: #753a22;">Unidade</b> 
+                    <select id="select_unidade">
+                        <option value="campinas">Campinas</option>
+                        <option value="barueri">Barueri</option>
+                    </select>
+         </div>
 
-        <div id="sensor1"> <p>10°C</p> <span id="sensBox1">0</span></div>
-        <div id="sensor2"> <p>15°C</p> <span id="sensBox2">0</span></div>
-        <div id="sensor3"> <p>17°C</p> <span id="sensBox3">0</span></div>
-        <div id="sensor4"> <p>19°C | 21°C</p> <span id="sensBox4">0</span></div>
-        <div id="sensor5"> <p>22°C</p> <span id="senssensor5">0</span></div>
 
-    </div> <br>
-    <div id="setor_baixo">
-        <div id="sensor6"> <p>24°C</p> <span id="senssensor6">0</span></div>
-        <div id="sensor7"> <p>27°C</p> <span id="senssensor7">0</span></div>
-        <div id="sensor8"> <p>27°C</p> <span id="senssensor7">0</span></div>
-        <div id="sensor9"> <p>27°C</p> <span id="senssensor7">0</span></div>
-        <div id="sensor10"> <p>27°C</p> <span id="sensBox7">0</span></div>
-    </div>
+         <div id="setor">
+              <b style="font-size: x-large; color: #753a22;">Setor</b>
+                <select id="select_setor">
+                      <option value="a1">A1</option>
+                      <option value="a2">A2</option>
+                      <option value="a3">A3</option>
+                </select>
+         </div> 
+    <br> <br> <br>
+
+  <div id="setor_cima">
+
+        <div id="sensor1"> <p>Sensor1</p> 
+          <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+        <span>Desligado</span>
+          
+            Temperatura atual: <span>0</span> <br>
+            Umidade atual: <span>0</span> <br> <br>
+        <img src="/site/imgs/Green.png" alt="">
+          <span>Estável</span>
+      </div>
+
+
+          <div id="sensor2"> <p>Sensor2</p>
+            <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <span>Desligado</span>
+        </div>
+
+
+            <div id="sensor3"> <p>Sensor3</p> 
+              <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+            <span>Desligado</span>
+          </div>
+
+
+          <div id="sensor4"> <p>Sensor4</p>
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+            <span>Desligado</span>
+          </div>
+
+
+        <div id="sensor5"> <p>Sensor5</p>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <span>Desligado</span>
+        </div>
+
+
+  </div> <br>
+
+
+
+  <div id="setor_baixo">
+        <div id="sensor6"> <p>Sensor6</p>
+          <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+       </div>
+
+
+          <div id="sensor7"> <p>Sensor7</p>
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+            <span>Desligado</span>
+          </div>
+
+
+            <div id="sensor8"> <p>Sensor8</p>
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+              <span>Desligado</span>
+            </div>
+
+
+          <div id="sensor9"> <p>Sensor9</p>
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+            <span>Desligado</span>
+          </div>
+
+
+        <div id="sensor10"> <p>Sensor10</p>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <span>Desligado</span>
+        </div>
+
+
+  </div>
     
 
 </body>

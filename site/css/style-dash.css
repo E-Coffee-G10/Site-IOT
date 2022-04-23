@@ -286,12 +286,14 @@ font-size: 24px;
 }
 
 
+/* Segunda tela de dashboard */
+
 #barra_dash2{
   height: 120px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width:90%;
+  justify-content: space-between;
+  width:80%;
   margin: auto;
   border-bottom: 6px solid #753a22;
   font-size: 24px;
@@ -314,7 +316,6 @@ font-size: 24px;
 }
 
 #barra_dash2 #box2{
-  margin-left: 2%;
   background-color: #8ea9db;
   border: black solid 2px;
   border-radius: 10px;
@@ -325,7 +326,7 @@ font-size: 24px;
 }
 
 #barra_dash2 #box3{
-  margin-left: 2%;
+
   background-color: #22f085;
   border: black solid 2px;
   border-radius: 10px;
@@ -336,7 +337,7 @@ font-size: 24px;
 }
 
 #barra_dash2 #box4{
-  margin-left: 2%;
+
   background-color: #70ad47;
   border: black solid 2px;
   border-radius: 10px;
@@ -347,7 +348,7 @@ font-size: 24px;
 }
 
 #barra_dash2 #box5{
-  margin-left: 2%;
+
   background-color: #ffff00;
   border: black solid 2px;
   border-radius: 10px;
@@ -358,7 +359,7 @@ font-size: 24px;
 }
 
 #barra_dash2 #box6{
-  margin-left: 2%;
+
   background-color: #f5741d;
   border: black solid 2px;
   border-radius: 10px;
@@ -369,7 +370,7 @@ font-size: 24px;
 }
 
 #barra_dash2 #box7{
-  margin-left: 2%;
+
   background-color: #ff0000;
   border: black solid 2px;
   border-radius: 10px;
@@ -384,8 +385,7 @@ font-size: 24px;
   height: 300px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border:#ff0000 solid;
+  justify-content: space-around;
   font-size: 24px;
   padding: 4px;
 }
@@ -393,8 +393,164 @@ font-size: 24px;
   height: 300px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border:#ff0000 solid;
+  justify-content: space-around;
   font-size: 24px;
   padding: 4px;
-   }
+}
+
+#unidade{
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+#setor{
+  display: flex;
+  justify-content: center;
+}
+
+#select_unidade{
+  margin-left: 30px;
+  height: 40%;
+  margin-top: 2px;
+  font-size: larger;
+  border-radius: 20px;
+  text-align: center;
+  background-color: lightgray;
+}
+
+#select_setor{
+  margin-left: 30px;
+  height: 40%;
+  margin-top: 2px;
+  font-size: larger;
+  width: 70px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: lightgray;
+}
+
+#setor_cima #sensor1{
+  width: 250px;
+  height: 300px;
+  border: darkgrey 4px solid;
+  border-radius: 20px;
+}
+#setor_cima #sensor2{
+  width: 250px;
+  height: 300px;
+  border: darkgrey 4px solid;
+  border-radius: 20px;
+}
+#setor_cima #sensor3{
+  width: 250px;
+  height: 300px;
+  border: darkgrey 4px solid;
+  border-radius: 20px;
+}
+#setor_cima #sensor4{
+  width: 250px;
+  height: 300px;
+  border: darkgrey 4px solid;
+  border-radius: 20px;
+}
+#setor_cima #sensor5{
+  width: 250px;
+  height: 300px;
+  border: darkgrey 4px solid;
+  border-radius: 20px;
+}
+
+#setor_baixo #sensor6{
+  width: 250px;
+  height: 300px;
+  border: darkgrey 4px solid;
+  border-radius: 20px;
+}
+#setor_baixo #sensor7{
+  width: 250px;
+  height: 300px;
+  border: darkgrey 4px solid;
+  border-radius: 20px;
+}
+#setor_baixo #sensor8{
+  width: 250px;
+  height: 300px;
+  border: darkgrey 4px solid;
+  border-radius: 20px;
+}
+#setor_baixo #sensor9{
+  width: 250px;
+  height: 300px;
+  border: darkgrey 4px solid;
+  border-radius: 20px;
+}
+#setor_baixo #sensor10{
+  width: 250px;
+  height: 300px;
+  border: darkgrey 4px solid;
+  border-radius: 20px;
+}
+
+#setor_cima p {
+  text-align: center;
+  font-weight: 500;
+}
+
+#setor_baixo p {
+  text-align: center;
+  font-weight: 500;
+}
+
+
+.switch {
+  margin-left: 5px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #3af321;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
