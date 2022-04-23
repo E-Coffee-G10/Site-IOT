@@ -284,3 +284,118 @@ font-size: 24px;
   height: 200px;
   width: 70%;
 }
+
+/* Segunda tela de dashboard */
+
+#barra_dash2{
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:90%;
+  margin: auto;
+  border-bottom: 6px solid #753a22;
+  font-size: 24px;
+  padding: 4px;
+}
+
+#barra_dash2 p{
+  margin-top: 5px; font-size: xx-large;
+  margin: 0;
+}
+
+#barra_dash2 #box1{
+  background-color: #305496;
+  border: black solid 2px;
+  border-radius: 10px;
+  height: 100%;
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#barra_dash2 #box2{
+  margin-left: 2%;
+  background-color: #8ea9db;
+  border: black solid 2px;
+  border-radius: 10px;
+  height: 100%;
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#barra_dash2 #box3{
+  margin-left: 2%;
+  background-color: #22f085;
+  border: black solid 2px;
+  border-radius: 10px;
+  height: 100%;
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#barra_dash2 #box4{
+  margin-left: 2%;
+  background-color: #70ad47;
+  border: black solid 2px;
+  border-radius: 10px;
+  height: 100%;
+  width: 175px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#barra_dash2 #box5{
+  margin-left: 2%;
+  background-color: #ffff00;
+  border: black solid 2px;
+  border-radius: 10px;
+  height: 100%;
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#barra_dash2 #box6{
+  margin-left: 2%;
+  background-color: #f5741d;
+  border: black solid 2px;
+  border-radius: 10px;
+  height: 100%;
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#barra_dash2 #box7{
+  margin-left: 2%;
+  background-color: #ff0000;
+  border: black solid 2px;
+  border-radius: 10px;
+  height: 100%;
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#setor_cima{
+  margin: 0;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border:#ff0000 solid;
+  font-size: 24px;
+  padding: 4px;
+}
+#setor_baixo{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border:#ff0000 solid;
+  font-size: 24px;
+  padding: 4px;
+}
