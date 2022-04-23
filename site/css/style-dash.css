@@ -432,65 +432,75 @@ font-size: 24px;
 }
 
 #setor_cima #sensor1{
-  width: 250px;
+  width: 230px;
   height: 300px;
   border: darkgrey 4px solid;
   border-radius: 20px;
+  font-size: large;
 }
 #setor_cima #sensor2{
-  width: 250px;
+  width: 230px;
   height: 300px;
   border: darkgrey 4px solid;
   border-radius: 20px;
+  font-size: large;
 }
 #setor_cima #sensor3{
-  width: 250px;
+  width: 230px;
   height: 300px;
   border: darkgrey 4px solid;
   border-radius: 20px;
+  font-size: large;
 }
 #setor_cima #sensor4{
-  width: 250px;
+  width: 230px;
   height: 300px;
   border: darkgrey 4px solid;
   border-radius: 20px;
+  font-size: large;
 }
 #setor_cima #sensor5{
-  width: 250px;
+  width: 230px;
   height: 300px;
   border: darkgrey 4px solid;
   border-radius: 20px;
+  font-size: large;
 }
 
 #setor_baixo #sensor6{
-  width: 250px;
+  width: 230px;
   height: 300px;
   border: darkgrey 4px solid;
   border-radius: 20px;
+  font-size: large;
 }
 #setor_baixo #sensor7{
-  width: 250px;
+  width: 230px;
   height: 300px;
   border: darkgrey 4px solid;
   border-radius: 20px;
+  font-size: large;
 }
 #setor_baixo #sensor8{
-  width: 250px;
+  width: 230px;
   height: 300px;
   border: darkgrey 4px solid;
   border-radius: 20px;
+  font-size: large;
 }
 #setor_baixo #sensor9{
-  width: 250px;
+  width: 230px;
   height: 300px;
   border: darkgrey 4px solid;
   border-radius: 20px;
+  font-size: large;
 }
 #setor_baixo #sensor10{
-  width: 250px;
+  width: 230px;
   height: 300px;
   border: darkgrey 4px solid;
   border-radius: 20px;
+  font-size: large;
 }
 
 #setor_cima p {
@@ -537,7 +547,7 @@ font-size: 24px;
 }
 
 input:checked + .slider {
-  background-color: #3af321;
+  background-color: #70ad47;
 }
 
 input:checked + .slider:before {
