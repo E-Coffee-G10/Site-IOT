@@ -93,17 +93,30 @@
       <!-- Divs ocupando 50% height da tela com 1 grafico e 2 balão em column -->
 
       <div class="Dashboard">
-        <div class="Pai_Situacao2">
-          <div class="Situação_Grafico2">
-            <span> <img src="/site/imgs/Green-circle.png" height="30px"><b>Ativo</b> 
-              <select>
-                <option>Desligar</option>
-                <option>Ligar</option>
-              </select><br><br>
-              Umidade Atual:
-              <b id="umi_atual">79.3%</b></span>
-          </div>
 
+        <div class="Pai_Situacao2">
+
+          <div class="Situação_Grafico2">
+
+            
+            <div class="SelectSpanIMG">
+
+              <img src="/site/imgs/Green-circle.png" height="30px">
+                
+              <span id="Temp_atual"><b>Ativo</b></span>
+              
+                <select class="select_alerta">
+                  <option>Desligar</option>
+                  <option>Ligar</option>
+                </select><br><br>
+  
+              </div>
+  
+                  <div>
+                Umidade Atual: <b id="temp_atual">37.2°C</b>
+                  </div>
+
+        </div>
           <div class="Situação_Grafico">
             <span id="Situacao_sensor"><img src="/site/imgs/Green-circle.png" height="30px">
             <b>Estável</b>
