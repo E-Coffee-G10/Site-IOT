@@ -4,7 +4,7 @@ function calcular() {
     var preco = Number(input_preco_saca.value)
     var cafeeiros = Number(input_qnt_cafeeiro.value)
     var sacas = Number(input_qnt_sacas.value)
-    
+
     var quantidade_saca = (cafeeiros * producao_cafeeiro) / peso_saca
     var perda_saca = quantidade_saca - sacas
     var estimativa_saca = quantidade_saca - (perda_saca / 2)

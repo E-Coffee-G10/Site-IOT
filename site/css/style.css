@@ -1,53 +1,53 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #f7f3f3;
-    font-family: 'Red Hat Display';
+  margin: 0;
+  padding: 0;
+  background-color: #f7f3f3;
+  font-family: "Red Hat Display";
 }
 
 /* Header das telas*/
 
 .header {
-    background-color: #753a22;
-    color: #FFFFFF;
-    border-bottom: 3px solid #361E0B;
-    height: 10vh;
-    display: flex;
-    align-items: center;
+  background-color: #753a22;
+  color: #ffffff;
+  border-bottom: 3px solid #361e0b;
+  height: 10vh;
+  display: flex;
+  align-items: center;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar {
-    display: flex;
-    list-style: none;
-    width: 400px;
-    justify-content: space-around;
+  display: flex;
+  list-style: none;
+  width: 400px;
+  justify-content: space-around;
 }
 
 .navbar a {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 .now {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .now_img {
-    height: 15px;
-    margin-right: 5px;
-    font-weight: bolder;
+  height: 15px;
+  margin-right: 5px;
+  font-weight: bolder;
 }
 
 /* --------------------------- */
@@ -55,45 +55,45 @@ body {
 /* Banner das telas*/
 
 .banner_simulador {
-    background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    height: 80vh;
-    padding: 15vh 5vh;
+  background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  padding: 15vh 5vh;
 }
 
 .banner_login {
-    background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 80vh;
+  background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
 }
 
 .banner_simulador .container {
-    height: 500px;
-    display: flex;
-    align-items: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
 }
 
 .banner_simulador .container.simulador {
-    justify-content: center;
+  justify-content: center;
 }
 
 .banner_login .contenier.login {
-    margin: auto;
+  margin: auto;
 }
 
 .banner_cadastro {
-    background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 120vh;
-    align-items: center;
+  background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 120vh;
+  align-items: center;
 }
 
 /* -------------------------------- */
@@ -102,214 +102,210 @@ body {
 
 /* simulador */
 .card_simulador {
-    background-color: #fbf8f9;
-    color: #753a22;
-    border: 2px solid #753a22;
-    width: 500px;
-    height: 470px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-radius: 40px;
+  background-color: #fbf8f9;
+  color: #753a22;
+  border: 2px solid #753a22;
+  width: 500px;
+  height: 470px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 40px;
 }
 
 .card_simulador h1 {
-    margin: 10px;
-    align-self: center;
+  margin: 10px;
+  align-self: center;
 }
 
 .card_simulador span {
-    margin-bottom: 4px;
-    align-self: center;
+  margin-bottom: 4px;
+  align-self: center;
 }
 
 .card_simulador .input_simulador {
-    margin: 0;
-    outline: 2px solid #753a22;
-    background-color: #ffffff;
-    border: 0;
-    padding: 8px 8px;
-    border-radius: 20px;
-    width: 80%;
-    font-size: larger;
+  margin: 0;
+  outline: 2px solid #753a22;
+  background-color: #ffffff;
+  border: 0;
+  padding: 8px 8px;
+  border-radius: 20px;
+  width: 80%;
+  font-size: larger;
 }
 
 .btn_simulador {
-    margin-top: 25px;
-    color: #ffffff;
-    background-color: #753a22;
-    border: 2px solid #753a22;
-    border-radius: 20px;
-    width: 40%;
-    padding: 10px 10px;
-    font-size: 18px;
-    cursor: pointer;
+  margin-top: 25px;
+  color: #ffffff;
+  background-color: #753a22;
+  border: 2px solid #753a22;
+  border-radius: 20px;
+  width: 40%;
+  padding: 10px 10px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .btn_simulador:hover {
-    background-color: #87994B;
-    border: 2px solid #87994B;
-    color: #ffffff;
-    cursor: pointer;
+  background-color: #87994b;
+  border: 2px solid #87994b;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 /* -------------------------------- */
 
 /* login */
 .card_login {
-    background-color: #fbf8f9;
-    color: #753a22;
-    width: 390px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #753A22;
-    border-radius: 40px;
+  background-color: #fbf8f9;
+  color: #753a22;
+  width: 390px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #753a22;
+  border-radius: 40px;
 }
 
 .card_login h1 {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 2px;
-    line-height: 56px;
-    letter-spacing: 0em;
-    margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  line-height: 56px;
+  letter-spacing: 0em;
+  margin: 0;
 }
 
 .card_login span {
-    margin-top: 3%;
-    margin-bottom: 4px;
-    color: #753a22;
-    align-self: flex-start;
+  margin-top: 3%;
+  margin-bottom: 4px;
+  color: #753a22;
+  align-self: flex-start;
 }
 
 .input_login {
-    margin-top: 8px;
-    outline: 2px solid #753a22;
-    background-color: #ffffff;
-    padding: 8px 8px;
-    border-radius: 20px;
-    width: 95%;
-    font-size: larger;
-    margin-bottom:2px;
+  margin-top: 8px;
+  outline: 2px solid #753a22;
+  background-color: #ffffff;
+  padding: 8px 8px;
+  border-radius: 20px;
+  width: 95%;
+  font-size: larger;
+  margin-bottom: 2px;
 }
 
 .resultado {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 /* ------------------------- */
 
 /* cadastro */
 .card_cadastro {
-    background-color: #ffffff;
-    color: #4b3621;
-    width: 70em;
-    height: 105vh;
-    display: flex;
-    border: 2px solid #753A2280;
-    border-radius: 40px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
+  background-color: #ffffff;
+  color: #4b3621;
+  width: 70em;
+  height: 105vh;
+  display: flex;
+  border: 2px solid #753a2280;
+  border-radius: 40px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
-
 .cadastro_direito {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .cadastro_direito h4 {
-    margin: 10px;
+  margin: 10px;
 }
 
 .cadastro_direito .btn_cadastro {
-    align-self: center;
+  align-self: center;
 }
 
 .cadastro_esquerdo {
-    width: 25%;
+  width: 25%;
 }
 
 .cadastro_meio {
-    width: 25%;
-    border-left: #753A22 solid 2px;
-    border-right: #753a22 solid 2px;
-    padding-left: 50px;
-    padding-right: 50px;
+  width: 25%;
+  border-left: #753a22 solid 2px;
+  border-right: #753a22 solid 2px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .titulo_cadastro {
-    width: 90%;
-    height: 50px;
-    
+  width: 90%;
+  height: 50px;
 }
 
 .card_cadastro .input_cadastro {
-    outline: 2px solid #753a22;
-    background-color: #E5E5E5;
-    border: 0;
-    padding: 8px;
-    border-radius: 20px;
-    width: auto;
-    font-size: larger;
+  outline: 2px solid #753a22;
+  background-color: #e5e5e5;
+  border: 0;
+  padding: 8px;
+  border-radius: 20px;
+  width: auto;
+  font-size: larger;
 }
 /*------------------------ validações cadastro -------------------------*/
-#validacao_nome{
-    color: #11d100;
+#validacao_nome {
+  color: #11d100;
 }
-#validacao_cnpj{
-    color: #11d100;
+#validacao_cnpj {
+  color: #11d100;
 }
-#validação_telefone{
-    color: #11d100;
+#validação_telefone {
+  color: #11d100;
 }
 #validacao_email {
-    color: #11d100;
-    }
+  color: #11d100;
+}
 #validacao_cep {
-     color: #11d100;
-        }
+  color: #11d100;
+}
 #validacao_rua {
-     color: #11d100;
-               }
- #validacao_endereco {
-    color: #11d100;
-                }
-  #validacao_cidade {
-   color: #11d100;
-                   }
- #validacao_senha {
- color: #11d100;
-                  }
- #validacao_senha2 {
- color: #11d100;
-             }
+  color: #11d100;
+}
+#validacao_endereco {
+  color: #11d100;
+}
+#validacao_cidade {
+  color: #11d100;
+}
+#validacao_senha {
+  color: #11d100;
+}
+#validacao_senha2 {
+  color: #11d100;
+}
 .btn_cadastro {
-    margin:0%;
-    margin-top: 50px;
-    background-color: #753a22;
-    color: white;
-    width: 50%;
-    border-radius: 20px;
-    border: none;
-    font-size: 18px;
-    padding: 10px;
-    cursor: pointer;
-
+  margin: 0%;
+  margin-top: 50px;
+  background-color: #753a22;
+  color: white;
+  width: 50%;
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #27850b;
-    cursor: pointer;
+  background-color: #27850b;
+  cursor: pointer;
 }
-
 
 /* --------------------- */
 
@@ -320,86 +316,85 @@ button:hover {
 /* Forms login */
 
 .form_login {
-    display: flex;
-    flex-direction: column;
-    width: 270px;
+  display: flex;
+  flex-direction: column;
+  width: 270px;
 }
 
 .form_login label {
-    margin: 0;
+  margin: 0;
 }
 
 .form_login input {
-    outline: 2px solid #753A22;
-    border: 0;
-    border-radius: 40px;
-    width: 95%;
-    padding:8px;
-    margin-top: 4px;
-    margin-bottom: 5px;
+  outline: 2px solid #753a22;
+  border: 0;
+  border-radius: 40px;
+  width: 95%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 5px;
 }
 
 .form_login #emailInput {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .form_login p {
-    color: #753A22;
-    margin-top: 0px;
-    text-align: right;
-    display: block;
-    margin-bottom: 25px;
+  color: #753a22;
+  margin-top: 0px;
+  text-align: right;
+  display: block;
+  margin-bottom: 25px;
 }
 
 .form_login #entra {
-    border: 2px solid #753A22;
-    border-radius: 20px;
-    background-color: white;
-    color: #753a22;
-    width: 45%;
-    height: 35px;
-    cursor: pointer;
-    font-family:'Red Hat Display';
+  border: 2px solid #753a22;
+  border-radius: 20px;
+  background-color: white;
+  color: #753a22;
+  width: 45%;
+  height: 35px;
+  cursor: pointer;
+  font-family: "Red Hat Display";
 }
 
 .form_login #entra:hover {
-    background-color: #753a22;
-    border: 3px solid #753A22;
-    color: white;
+  background-color: #753a22;
+  border: 3px solid #753a22;
+  color: white;
 }
 
-.form_login #erro{
-    color: red ;    
+.form_login #erro {
+  color: red;
 }
-
 
 .form_login #cadastro {
-    border: 2px solid #87994B;
-    border-radius: 20px;
-    background-color: white;
-    color: #87994B;
-    width: 45%;
-    height: 35px;
-    float: right;
-    cursor: pointer;
-    font-family:'Red Hat Display';
+  border: 2px solid #87994b;
+  border-radius: 20px;
+  background-color: white;
+  color: #87994b;
+  width: 45%;
+  height: 35px;
+  float: right;
+  cursor: pointer;
+  font-family: "Red Hat Display";
 }
 
 .form_login #cadastro:hover {
-    color: white;
-    background-color: #87994B;
-    cursor: pointer;
+  color: white;
+  background-color: #87994b;
+  cursor: pointer;
 }
 
 #cadastro a {
-    text-decoration: none;
-    color:#753a22;
+  text-decoration: none;
+  color: #753a22;
 }
 
 .esquecer {
-    text-decoration: none;
-    color: #753a22;
-    margin-top: 3px;
+  text-decoration: none;
+  color: #753a22;
+  margin-top: 3px;
 }
 
 /* ---------------------- */
@@ -407,12 +402,12 @@ button:hover {
 /* form cadastro */
 
 .form_cadastro {
-    height: 40%;
+  height: 40%;
 }
 
-.form_cadastro input{
-    margin-top: 8px;
-    margin-bottom:8px;
+.form_cadastro input {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 /* -------------------- */
@@ -422,100 +417,100 @@ button:hover {
 /* Footer */
 
 .footer {
-    background-color: #753a22;
-    color: white;
+  background-color: #753a22;
+  color: white;
 }
 
 .footer .container {
-    display: flex;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    font-weight: lighter;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-weight: lighter;
 }
 
 /* Output javascrpt*/
 
 .card_simulador .output_javascript {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .output_javascript {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .output_resultado {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titulo_js {
-    margin: 15px;
+  margin: 15px;
 }
 
 .output_resultado .list_js_01 {
-    margin: 0;
+  margin: 0;
 }
 
 .output_resultado .list_js_02 {
-    margin: 0;
-    list-style: none;
-    width: 85%;
+  margin: 0;
+  list-style: none;
+  width: 85%;
 }
 
 .output_resultado li {
-    margin: 15px;
-    font-weight: bold;
+  margin: 15px;
+  font-weight: bold;
 }
 
 .output_perda {
-    color: #D10007;
-    font-weight: bold;
-    border-bottom: 1px solid;
+  color: #d10007;
+  font-weight: bold;
+  border-bottom: 1px solid;
 }
 
 .output_producao {
-    color: #361E0B;
-    font-weight: bold;
-    border-bottom: 1px solid;
+  color: #361e0b;
+  font-weight: bold;
+  border-bottom: 1px solid;
 }
 
 .output_ganho {
-    color: #361E0B;
-    font-weight: bold;
-    border-bottom: 1px solid;
+  color: #361e0b;
+  font-weight: bold;
+  border-bottom: 1px solid;
 }
 
 .output_estimativa {
-    color: #87994B;
-    font-weight: bold;
-    border-bottom: 1px solid;
+  color: #87994b;
+  font-weight: bold;
+  border-bottom: 1px solid;
 }
 
 .output_reducao {
-    color: #87994B;
-    font-weight: bold;
-    border-bottom: 1px solid;
+  color: #87994b;
+  font-weight: bold;
+  border-bottom: 1px solid;
 }
 
 .btn_js_simulador {
-    margin-top: 10px;
-    color: #753a22;
-    background-color: #ffffff;
-    border: 2px solid #753a22;
-    border-radius: 20px;
-    width: 40%;
-    padding: 10px 10px;
-    font-size: 18px;
-    font-weight: bolder;
+  margin-top: 10px;
+  color: #753a22;
+  background-color: #ffffff;
+  border: 2px solid #753a22;
+  border-radius: 20px;
+  width: 40%;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-weight: bolder;
 }
 
 .btn_js_simulador:hover {
-    background-color: #87994B;
-    cursor: pointer;
+  background-color: #87994b;
+  cursor: pointer;
 }
 
 /* .card_simulador .icon_on_border {
@@ -524,142 +519,139 @@ button:hover {
     justify-content: flex-end;
 } */
 
-
 /*Cadastro de usuario dentro da dashboard*/
 
-body{
-    font-family: 'Red Hat Display';
-    padding: 0;
-    margin: 0;
+body {
+  font-family: "Red Hat Display";
+  padding: 0;
+  margin: 0;
 }
 
-.header-usuario{
-    background-color:#753a22;
-    display:flex;
-    align-items:center;
-    height: 10vh;
+.header-usuario {
+  background-color: #753a22;
+  display: flex;
+  align-items: center;
+  height: 10vh;
 }
 
-.container-header-usuario{
-    margin-left: 35px;
-    width:95%;
-    display:flex;
-    justify-content:space-between;
+.container-header-usuario {
+  margin-left: 35px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.container-cadastro-usuario{
-    background-color: #fbf8f9;
-    height: 600px;
-    display:flex;
-    justify-content: center;
-    align-items:center;
+.container-cadastro-usuario {
+  background-color: #fbf8f9;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.cadastro-usuario{
-    display: flex;
-    flex-direction:column;
-    align-items:center;
-    height: 500px;
-    width: 637px;
-    background-color: #ffff;
-    color:#753a22;
-    border: 1px solid #753a22;
-    border-radius:40px;
+.cadastro-usuario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 637px;
+  background-color: #ffff;
+  color: #753a22;
+  border: 1px solid #753a22;
+  border-radius: 40px;
 }
 
-.form-cadastro-usuario{
-    display: flex;
-    flex-direction:column;
-    margin-bottom: 15px;
+.form-cadastro-usuario {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
 }
 
-.form-cadastro-usuario label{
-    margin-bottom: 2%;
+.form-cadastro-usuario label {
+  margin-bottom: 2%;
 }
 
-.form-cadastro-usuario input{
-    background-color: #fbf8f9;
-    width:392px;
-    height:32px;
-    text-align: center;
-    border: 1px solid #753a22;
-    border-radius: 40px;
-    margin-bottom: 5%;
+.form-cadastro-usuario input {
+  background-color: #fbf8f9;
+  width: 392px;
+  height: 32px;
+  text-align: center;
+  border: 1px solid #753a22;
+  border-radius: 40px;
+  margin-bottom: 5%;
 }
 
-.cadastrarUsuario{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius:20px;
-    background-color: #87994b;
-    padding: 10px 15px;
-    height: 31px;
-    width: 206px;
-    font-size: 20px;
-    border: 0px;
-    color:white;
-    cursor: pointer;
-    font-family: 'Red Hat Display';
+.cadastrarUsuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #87994b;
+  padding: 10px 15px;
+  height: 31px;
+  width: 206px;
+  font-size: 20px;
+  border: 0px;
+  color: white;
+  cursor: pointer;
+  font-family: "Red Hat Display";
 }
 
-.icon-usuario{
-    z-index:10%;
-    position: relative;
-    top:41%;
-    right: 3%;
+.icon-usuario {
+  z-index: 10%;
+  position: relative;
+  top: 41%;
+  right: 3%;
 }
 
-.icon-usuario img{
-    width: 89px;
-    height: 88px;
+.icon-usuario img {
+  width: 89px;
+  height: 88px;
 }
 
 /* -------------------- */
 
-
 /* Botões do header */
 
-.menu_usuario{
-    display: none ;
-    position: absolute;
-    z-index: 9999;
-    right: 0;
-    top: 14%;
-    width: 12%;
-    height: 35%;
-    background-color: #fbf8f9;
-    border-radius: 10px;
-    border: gray 2px solid;
-    opacity: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .nome_usuario {
-    margin-top: 8%;
-    font-size: 18px;
-  }
-  
-  .menu_usuario li {
-    margin-top: 4%;
-  
-  }
-  
-  .menu_usuario a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .user_bar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top: 1px solid black;
-    padding: 0;
-    font-size: 18px;
-    list-style: none;
-  }
+.menu_usuario {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  right: 0;
+  top: 14%;
+  width: 12%;
+  height: 35%;
+  background-color: #fbf8f9;
+  border-radius: 10px;
+  border: gray 2px solid;
+  opacity: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  /* --------------------- */
+.nome_usuario {
+  margin-top: 8%;
+  font-size: 18px;
+}
+
+.menu_usuario li {
+  margin-top: 4%;
+}
+
+.menu_usuario a {
+  color: black;
+  text-decoration: none;
+}
+
+.user_bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid black;
+  padding: 0;
+  font-size: 18px;
+  list-style: none;
+}
+
+/* --------------------- */

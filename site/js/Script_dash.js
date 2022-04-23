@@ -23,7 +23,6 @@ function ModalFunction() {
   }
 }
 
-
 /* tempera = 0
 
 function change_color() {

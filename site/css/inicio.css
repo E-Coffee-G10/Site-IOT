@@ -1,546 +1,485 @@
 body {
-    font-family: 'Red Hat Display';
-    margin: 0;
-    padding: 0;
-    background-color: #fbf8f9;
-
+  font-family: "Red Hat Display";
+  margin: 0;
+  padding: 0;
+  background-color: #fbf8f9;
 }
 
 /* Header */
 
 .tela1 {
-    background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
-    background-size: cover;
-    height: 640px;
-    width: 100%;
-
+  background-image: url(./../imgs/site-institucional/Grao-de-cafe.jpg);
+  background-size: cover;
+  height: 640px;
+  width: 100%;
 }
 
 h1 {
-    margin-right: 40%;
-
+  margin-right: 40%;
 }
 
 .now {
-    text-decoration: none;
-    font-weight: bold;
-    color: #2C1408;
-
+  text-decoration: none;
+  font-weight: bold;
+  color: #2c1408;
 }
 
 .header {
-    background-color: #753a22;
-    color: #FFFFFF;
-    border-bottom: 3px solid #361E0B;
-    display: flex;
-    align-items: center;
-    height: 10vh;
-
+  background-color: #753a22;
+  color: #ffffff;
+  border-bottom: 3px solid #361e0b;
+  display: flex;
+  align-items: center;
+  height: 10vh;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-
+  width: 80%;
+  margin: 0 auto;
 }
 
 .header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar {
-    display: flex;
-    list-style: none;
-    width: 400px;
-    justify-content: space-around;
-
+  display: flex;
+  list-style: none;
+  width: 400px;
+  justify-content: space-around;
 }
 
 .navbar a {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 20px;
-
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 .now_img {
-    height: 15px;
-    width: 15px;
-    margin-right: 5px;
-    font-weight: bolder;
-
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  font-weight: bolder;
 }
-
-
 
 /* --------------------------- */
 
 .slogan {
-    height: 570px;
-    display: flex;
-    color: white;
-
+  height: 570px;
+  display: flex;
+  color: white;
 }
 
 .slogan p {
-    font-size: 40px;
-    font-weight: bolder;
-    margin-top: 15%;
-    margin-left: 47%;
-
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 15%;
+  margin-left: 47%;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-
+  text-decoration: none;
+  color: white;
 }
 
 /*Tela 2*/
 
 .tela2 {
-    background-color: #fbf8f9;
-
+  background-color: #fbf8f9;
 }
 
 .background2 {
-    color: #000;
-    display: flex;
-    justify-content: space-between;
-
+  color: #000;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sobre {
-    margin-left: 111px;
-    align-items: center;
-
+  margin-left: 111px;
+  align-items: center;
 }
 
 .titulo {
-    font-weight: bolder;
-    font-size: 40px;
-    margin-top: 30%;
-
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 30%;
 }
 
 .descricao {
-    font-size: 28px;
-    width: 500px;
-    height: 335px;
-
+  font-size: 28px;
+  width: 500px;
+  height: 335px;
 }
 
 #imagem-sobre-nos {
-    margin-top: 10%;
-    margin-right: 10%;
-    width: 500px;
-    height: 581px;
-    display: flex;
-
+  margin-top: 10%;
+  margin-right: 10%;
+  width: 500px;
+  height: 581px;
+  display: flex;
 }
 
 /*Serviços*/
 
 .tela3 {
-    background: url(./../imgs/site-institucional/background/Mancha-Direita.png) no-repeat right top,
-        url(./../imgs/site-institucional/background/Mancha-Esquerda.png) no-repeat left bottom;
-    background-color: #fbf8f9;
-
+  background: url(./../imgs/site-institucional/background/Mancha-Direita.png)
+      no-repeat right top,
+    url(./../imgs/site-institucional/background/Mancha-Esquerda.png) no-repeat
+      left bottom;
+  background-color: #fbf8f9;
 }
 
 .servicos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .titulo-servicos {
-    font-size: 60px;
-    font-weight: bold;
-
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .descricao-servicos {
-    font-size: 40px;
-    margin-left: 190px;
-    text-align: center;
-    width: 1000px;
-
+  font-size: 40px;
+  margin-left: 190px;
+  text-align: center;
+  width: 1000px;
 }
 
 .box-servicos {
-    margin-top: 88px;
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    width: 1046px;
-    height: 393px;
-    border-radius: 40px;
-    border: 2px solid rgba(50, 50, 50, 0.2);
-
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 1046px;
+  height: 393px;
+  border-radius: 40px;
+  border: 2px solid rgba(50, 50, 50, 0.2);
 }
 
 .imagem-box {
-    width: 345px;
-    height: 385px;
-    margin-left: 45px;
-
+  width: 345px;
+  height: 385px;
+  margin-left: 45px;
 }
 
 .sombra-imagem-box {
-    width: 477px;
-    height: 393px;
-    border-radius: 40px;
-    background-color: rgba(160, 97, 106, 0.04)
-
+  width: 477px;
+  height: 393px;
+  border-radius: 40px;
+  background-color: rgba(160, 97, 106, 0.04);
 }
 
 .titulo-box {
-    font-weight: bolder;
-    font-size: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .descricao-box {
-    width: 524px;
-    font-size: 26px;
-    font-weight: 300, light;
-    text-align: center;
-    line-height: 34px;
-
+  width: 524px;
+  font-size: 26px;
+  font-weight: 300, light;
+  text-align: center;
+  line-height: 34px;
 }
 
 .icon-box {
-    float: right;
-    width: 87px;
-    height: 87px;
-
+  float: right;
+  width: 87px;
+  height: 87px;
 }
 
 /* Tela 4 */
 
 .tela4 {
-    background: url(./../imgs/site-institucional/imagens/plantinha-lado-direito.png) no-repeat right bottom,
-        url(./../imgs/site-institucional/imagens/plantinha-centro.png) no-repeat center,
-        url(./../imgs/site-institucional/imagens/plantinha-lado-esquerdo.png) no-repeat left top;
-
+  background: url(./../imgs/site-institucional/imagens/plantinha-lado-direito.png)
+      no-repeat right bottom,
+    url(./../imgs/site-institucional/imagens/plantinha-centro.png) no-repeat
+      center,
+    url(./../imgs/site-institucional/imagens/plantinha-lado-esquerdo.png)
+      no-repeat left top;
 }
 
-
 .equipe {
-    margin-top: 100px;
-    background: url(./../imgs/site-institucional/imagens/semente-equipe.png) no-repeat center;
-    background-size: contain;
-    color: white;
-    height: 80vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-
+  margin-top: 100px;
+  background: url(./../imgs/site-institucional/imagens/semente-equipe.png)
+    no-repeat center;
+  background-size: contain;
+  color: white;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .titulo_equipe {
-    margin-top: 0;
-    text-align: center;
-    position: absolute;
-    margin-left: 35vw;
-    margin-right: 35vw;
-    font-size: 70px;
-    font-weight: bold;
-    justify-self: center;
-
+  margin-top: 0;
+  text-align: center;
+  position: absolute;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  font-size: 70px;
+  font-weight: bold;
+  justify-self: center;
 }
 
 .texto_equipe {
-    position: absolute;
-    margin-left: 30vw;
-    margin-right: 30vw;
-    left: 0;
-    right: 0;
-    text-align: center;
-    bottom: 40px;
-    width: 600px;
-    font-size: 26px;
-    font-weight: 300, light;
-    line-height: 34px;
-
+  position: absolute;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 40px;
+  width: 600px;
+  font-size: 26px;
+  font-weight: 300, light;
+  line-height: 34px;
 }
 
 .membros_total {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .membros_total img {
-    height: 15vh;
-    border-radius: 20px; 
-    border: 2px solid rgb(128, 128, 128)
-
+  height: 15vh;
+  border-radius: 20px;
+  border: 2px solid rgb(128, 128, 128);
 }
 
 .membros_total span {
-    margin-top: 2vh;
-    margin-bottom: 1vh;
-
+  margin-top: 2vh;
+  margin-bottom: 1vh;
 }
 
 .membros_cima {
-    align-self: center;
-    display: flex;
-    justify-content: space-around;
-    width: 90vw;
-
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+  width: 90vw;
 }
 
 .membros_baixo {
-    align-self: center;
-    display: flex;
-    justify-content: space-around;
-    width: 80vw;
-
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
 }
 
 .membro {
-    margin-top: 88px;
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    width: 18vw;
-    height: 50vh;
-    border-radius: 40px;
-    border: 2px solid rgba(50, 50, 50, 0.2);
-    position: relative;
-
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 18vw;
+  height: 50vh;
+  border-radius: 40px;
+  border: 2px solid rgba(50, 50, 50, 0.2);
+  position: relative;
 }
 
-.membro .arruma_membro{
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-
+.membro .arruma_membro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .github {
-    background: url(./../imgs/site-institucional/equipe/redes-sociais/github-icon.jpeg) center;
-    background-size: cover;
-    position: absolute;
-    margin-left: 2vw;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: 40px;
-    width: 30px;
-    height: 30px;
-    border-radius: 100px;
-    border-style: none;
-
+  background: url(./../imgs/site-institucional/equipe/redes-sociais/github-icon.jpeg)
+    center;
+  background-size: cover;
+  position: absolute;
+  margin-left: 2vw;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  border-style: none;
 }
-
 
 .linkedin {
-    background: url(./../imgs/site-institucional/equipe/redes-sociais/linkedin-icon.jpeg) center;
-    background-size: cover;
-    position: absolute;
-    margin-left: 14vw;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: 40px;
-    width: 30px;
-    height: 30px;
-    border-radius: 100px;
-    border-style: none;
-
+  background: url(./../imgs/site-institucional/equipe/redes-sociais/linkedin-icon.jpeg)
+    center;
+  background-size: cover;
+  position: absolute;
+  margin-left: 14vw;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  border-style: none;
 }
 
-button{
-    transition-duration: 1s;
-
+button {
+  transition-duration: 1s;
 }
 
 button:hover {
-    transform: scale(110%, 110%);
-    cursor: pointer;
-    
+  transform: scale(110%, 110%);
+  cursor: pointer;
 }
 
 /* Tela 5 */
 
 .tela5 {
-    background: url(./../imgs/site-institucional/imagens/coffee_background.jpg);
-    background-size: cover;
-    margin-top: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  background: url(./../imgs/site-institucional/imagens/coffee_background.jpg);
+  background-size: cover;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner {
-    width: 70%;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    color: rgb(96, 34, 34);
-    align-items: center;
-
+  width: 70%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  color: rgb(96, 34, 34);
+  align-items: center;
 }
 
 .card.mensagem {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 70%;
-    border-radius: 20px;
-    background-color: #ffffffb5;
-
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 70%;
+  border-radius: 20px;
+  background-color: #ffffffb5;
 }
 
 .form_incio {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-    font-size: 20px;
-    background-color: #ffffff5e;
-    width: 100%;
-    height: 70%;
-    border-radius: 20px;
-    backdrop-filter: blur(5px);
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #ffffff5e;
+  width: 100%;
+  height: 70%;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
 }
 
 .form_incio h2 {
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .gostosa {
-    display: flex;
-    margin-top: 5vh;
-    justify-content: center;
-    width: 100%;
-
+  display: flex;
+  margin-top: 5vh;
+  justify-content: center;
+  width: 100%;
 }
 .div_cima {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-
+  display: flex;
+  flex-direction: column;
+  width: 45%;
 }
 
 .div_baixo {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-
+  display: flex;
+  flex-direction: column;
+  width: 45%;
 }
 
 .form_incio input {
-    margin-top: 0;
-    background-color: #ffffff00;
-    border: 0;
-    width: 50%;
-    padding: 0;
-    border-radius: 10px;
-    outline: none;
-
+  margin-top: 0;
+  background-color: #ffffff00;
+  border: 0;
+  width: 50%;
+  padding: 0;
+  border-radius: 10px;
+  outline: none;
 }
 
 input,
 input::-webkit-input-placeholder {
-    font-size: 16px;
-    line-height: 5;
-
+  font-size: 16px;
+  line-height: 5;
 }
 
 .form_incio #enviar {
-    margin-top: 25px;
-    background-color: #ffffff00;
-    color: #753a22;
-    font-weight: bold;
-    padding: 10px 15px;
-    width: 120px;
-    align-self: center;
-    border-radius: 20px;
-    border: 0;
-    font-size: 18px;
-    cursor: pointer;
-
+  margin-top: 25px;
+  background-color: #ffffff00;
+  color: #753a22;
+  font-weight: bold;
+  padding: 10px 15px;
+  width: 120px;
+  align-self: center;
+  border-radius: 20px;
+  border: 0;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .form_incio #enviar {
-    margin-top: 5vh;
-
+  margin-top: 5vh;
 }
-
 
 .form_incio #enviar:hover {
-    background-color: #753a22;
-
+  background-color: #753a22;
 }
 
 .form_incio a {
-    text-decoration: none;
-    color: #753a22;
-    width: 100%;
-    height: 100%;
-
+  text-decoration: none;
+  color: #753a22;
+  width: 100%;
+  height: 100%;
 }
 
 .form_incio a:hover {
-    color: white;
-
+  color: white;
 }
 
 .card .cadastro {
-    background-color: #ffffff00;
-    color: rgb(96, 34, 34);
-    height: 500px;
-    width: 400px;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+  background-color: #ffffff00;
+  color: rgb(96, 34, 34);
+  height: 500px;
+  width: 400px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* footer */
 
 .footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #753a22;
-    color: #ffffff;
-
+  display: flex;
+  justify-content: space-around;
+  background-color: #753a22;
+  color: #ffffff;
 }
 
-ul{
-    list-style-type: none;
-
+ul {
+  list-style-type: none;
 }
 
 dt {
-    font-size: 30px;
-    font-weight: bold;
-
+  font-size: 30px;
+  font-weight: bold;
 }
 
 li {
-    font-size: 20px;
-    margin-top: 20px;
-    padding-left: 1vw;
-
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 1vw;
 }
