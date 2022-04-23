@@ -64,6 +64,11 @@ h1 {
   font-weight: bolder;
 }
 
+.navbar li {
+  margin: 0;
+  padding: 0;
+}
+
 /* --------------------------- */
 
 .slogan {

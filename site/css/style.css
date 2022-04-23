@@ -513,11 +513,6 @@ button:hover {
   cursor: pointer;
 }
 
-/* .card_simulador .icon_on_border {
-    width: 120px;
-    align-self: flex-end;
-    justify-content: flex-end;
-} */
 
 /*Cadastro de usuario dentro da dashboard*/
 
@@ -655,3 +650,10 @@ body {
 }
 
 /* --------------------- */
+
+/* Dashboard visão geral dos sensores */
+
+
+/* Colocar css aqui */
+
+/* ----------------------------- */

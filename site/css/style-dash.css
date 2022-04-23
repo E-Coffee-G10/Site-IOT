@@ -282,6 +282,13 @@ body {
 
 /* Segunda tela de dashboard */
 
+.subtitulo {
+  color: #753a22;
+  text-align: center;
+  font-weight: 900;
+  font-style: italic;
+}
+
 #barra_dash2 {
   height: 120px;
   display: flex;
@@ -428,6 +435,7 @@ body {
   border-radius: 20px;
   font-size: large;
 }
+
 #setor_cima #sensor2 {
   width: 230px;
   height: 300px;
@@ -435,6 +443,7 @@ body {
   border-radius: 20px;
   font-size: large;
 }
+
 #setor_cima #sensor3 {
   width: 230px;
   height: 300px;
@@ -442,6 +451,7 @@ body {
   border-radius: 20px;
   font-size: large;
 }
+
 #setor_cima #sensor4 {
   width: 230px;
   height: 300px;
@@ -449,6 +459,7 @@ body {
   border-radius: 20px;
   font-size: large;
 }
+
 #setor_cima #sensor5 {
   width: 230px;
   height: 300px;
@@ -464,6 +475,7 @@ body {
   border-radius: 20px;
   font-size: large;
 }
+
 #setor_baixo #sensor7 {
   width: 230px;
   height: 300px;
@@ -471,6 +483,7 @@ body {
   border-radius: 20px;
   font-size: large;
 }
+
 #setor_baixo #sensor8 {
   width: 230px;
   height: 300px;
@@ -478,6 +491,7 @@ body {
   border-radius: 20px;
   font-size: large;
 }
+
 #setor_baixo #sensor9 {
   width: 230px;
   height: 300px;
@@ -485,6 +499,7 @@ body {
   border-radius: 20px;
   font-size: large;
 }
+
 #setor_baixo #sensor10 {
   width: 230px;
   height: 300px;

@@ -13,7 +13,6 @@ function calcular() {
     var valor_final = valor_ganho_atual + lucro
     var estimativa_valor = valor_final - (lucro / 2)
 
-
     container_output.innerHTML = `
     <div class="output_javascript"> 
         <div class="output_resultado">
