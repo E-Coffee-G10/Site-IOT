@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fbf8f9;
+
 }
 
 /* Header */
@@ -12,16 +13,19 @@ body {
   background-size: cover;
   height: 640px;
   width: 100%;
+
 }
 
 h1 {
   margin-right: 40%;
+
 }
 
 .now {
   text-decoration: none;
   font-weight: bold;
   color: #2c1408;
+
 }
 
 .header {
@@ -31,17 +35,20 @@ h1 {
   display: flex;
   align-items: center;
   height: 10vh;
+
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+
 }
 
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .navbar {
@@ -49,12 +56,14 @@ h1 {
   list-style: none;
   width: 400px;
   justify-content: space-around;
+
 }
 
 .navbar a {
   text-decoration: none;
   color: #ffffff;
   font-size: 20px;
+
 }
 
 .now_img {
@@ -62,11 +71,13 @@ h1 {
   width: 15px;
   margin-right: 5px;
   font-weight: bolder;
+
 }
 
 .navbar li {
   margin: 0;
   padding: 0;
+
 }
 
 /* --------------------------- */
@@ -75,6 +86,7 @@ h1 {
   height: 570px;
   display: flex;
   color: white;
+
 }
 
 .slogan p {
@@ -82,40 +94,47 @@ h1 {
   font-weight: bolder;
   margin-top: 15%;
   margin-left: 47%;
+
 }
 
 a {
   text-decoration: none;
   color: white;
+
 }
 
 /*Tela 2*/
 
 .tela2 {
   background-color: #fbf8f9;
+
 }
 
 .background2 {
   color: #000;
   display: flex;
   justify-content: space-between;
+
 }
 
 .sobre {
   margin-left: 111px;
   align-items: center;
+
 }
 
 .titulo {
   font-weight: bolder;
   font-size: 40px;
   margin-top: 30%;
+
 }
 
 .descricao {
   font-size: 28px;
   width: 500px;
   height: 335px;
+
 }
 
 #imagem-sobre-nos {
@@ -124,6 +143,7 @@ a {
   width: 500px;
   height: 581px;
   display: flex;
+
 }
 
 /*Serviços*/
@@ -134,6 +154,7 @@ a {
     url(./../imgs/site-institucional/background/Mancha-Esquerda.png) no-repeat
       left bottom;
   background-color: #fbf8f9;
+
 }
 
 .servicos {
@@ -141,11 +162,13 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 
 .titulo-servicos {
   font-size: 60px;
   font-weight: bold;
+
 }
 
 .descricao-servicos {
@@ -153,6 +176,7 @@ a {
   margin-left: 190px;
   text-align: center;
   width: 1000px;
+
 }
 
 .box-servicos {
@@ -164,12 +188,14 @@ a {
   height: 393px;
   border-radius: 40px;
   border: 2px solid rgba(50, 50, 50, 0.2);
+
 }
 
 .imagem-box {
   width: 345px;
   height: 385px;
   margin-left: 45px;
+
 }
 
 .sombra-imagem-box {
@@ -177,6 +203,7 @@ a {
   height: 393px;
   border-radius: 40px;
   background-color: rgba(160, 97, 106, 0.04);
+
 }
 
 .titulo-box {
@@ -185,6 +212,7 @@ a {
   text-align: center;
   display: flex;
   justify-content: center;
+
 }
 
 .descricao-box {
@@ -193,12 +221,14 @@ a {
   font-weight: 300, light;
   text-align: center;
   line-height: 34px;
+
 }
 
 .icon-box {
   float: right;
   width: 87px;
   height: 87px;
+
 }
 
 /* Tela 4 */
@@ -210,6 +240,7 @@ a {
       center,
     url(./../imgs/site-institucional/imagens/plantinha-lado-esquerdo.png)
       no-repeat left top;
+
 }
 
 .equipe {
@@ -222,6 +253,7 @@ a {
   position: relative;
   display: flex;
   justify-content: center;
+
 }
 
 .titulo_equipe {
@@ -233,6 +265,7 @@ a {
   font-size: 70px;
   font-weight: bold;
   justify-self: center;
+
 }
 
 .texto_equipe {
@@ -247,23 +280,27 @@ a {
   font-size: 26px;
   font-weight: 300, light;
   line-height: 34px;
+
 }
 
 .membros_total {
   display: flex;
   flex-direction: column;
   width: 100%;
+
 }
 
 .membros_total img {
   height: 15vh;
   border-radius: 20px;
   border: 2px solid rgb(128, 128, 128);
+
 }
 
 .membros_total span {
   margin-top: 2vh;
   margin-bottom: 1vh;
+
 }
 
 .membros_cima {
@@ -271,6 +308,7 @@ a {
   display: flex;
   justify-content: space-around;
   width: 90vw;
+
 }
 
 .membros_baixo {
@@ -278,24 +316,25 @@ a {
   display: flex;
   justify-content: space-around;
   width: 80vw;
+
 }
 
 .membro {
   margin-top: 88px;
-  display: flex;
-  justify-content: space-around;
   background-color: white;
   width: 18vw;
   height: 50vh;
   border-radius: 40px;
   border: 2px solid rgba(50, 50, 50, 0.2);
   position: relative;
+
 }
 
 .membro .arruma_membro {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .github {
@@ -308,10 +347,11 @@ a {
   left: 0;
   right: 0;
   bottom: 40px;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 100px;
   border-style: none;
+
 }
 
 .linkedin {
@@ -324,19 +364,22 @@ a {
   left: 0;
   right: 0;
   bottom: 40px;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 100px;
   border-style: none;
+
 }
 
 button {
   transition-duration: 1s;
+
 }
 
 button:hover {
   transform: scale(110%, 110%);
   cursor: pointer;
+
 }
 
 /* Tela 5 */
@@ -348,6 +391,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .banner {
@@ -356,6 +400,7 @@ button:hover {
   margin-bottom: 150px;
   color: rgb(96, 34, 34);
   align-items: center;
+
 }
 
 .card.mensagem {
@@ -365,6 +410,7 @@ button:hover {
   height: 70%;
   border-radius: 20px;
   background-color: #ffffffb5;
+
 }
 
 .form_incio {
@@ -378,12 +424,14 @@ button:hover {
   height: 70%;
   border-radius: 20px;
   backdrop-filter: blur(5px);
+
 }
 
 .form_incio h2 {
   font-size: 30px;
   display: flex;
   justify-content: center;
+
 }
 
 .gostosa {
@@ -391,17 +439,21 @@ button:hover {
   margin-top: 5vh;
   justify-content: center;
   width: 100%;
+
 }
+
 .div_cima {
   display: flex;
   flex-direction: column;
   width: 45%;
+
 }
 
 .div_baixo {
   display: flex;
   flex-direction: column;
   width: 45%;
+
 }
 
 .form_incio input {
@@ -412,12 +464,14 @@ button:hover {
   padding: 0;
   border-radius: 10px;
   outline: none;
+
 }
 
 input,
 input::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 5;
+
 }
 
 .form_incio #enviar {
@@ -432,14 +486,17 @@ input::-webkit-input-placeholder {
   border: 0;
   font-size: 18px;
   cursor: pointer;
+
 }
 
 .form_incio #enviar {
   margin-top: 5vh;
+
 }
 
 .form_incio #enviar:hover {
   background-color: #753a22;
+
 }
 
 .form_incio a {
@@ -447,10 +504,12 @@ input::-webkit-input-placeholder {
   color: #753a22;
   width: 100%;
   height: 100%;
+
 }
 
 .form_incio a:hover {
   color: white;
+
 }
 
 .card .cadastro {
@@ -463,6 +522,7 @@ input::-webkit-input-placeholder {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 
 /* footer */
@@ -472,19 +532,23 @@ input::-webkit-input-placeholder {
   justify-content: space-around;
   background-color: #753a22;
   color: #ffffff;
+
 }
 
 ul {
   list-style-type: none;
+
 }
 
 dt {
   font-size: 30px;
   font-weight: bold;
+
 }
 
 li {
   font-size: 20px;
   margin-top: 20px;
   padding-left: 1vw;
+
 }
