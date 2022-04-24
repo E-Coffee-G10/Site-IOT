@@ -1,16 +1,17 @@
 CREATE DATABASE Ecoffee;
+
 USE Ecoffee;
 
 CREATE TABLE Empresa(
 idEmpresa INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 nomeEmpresa VARCHAR(45),
 CNPJ CHAR(18),
-Contato CHAR(14),
-email VARCHAR(40),
-senha VARCHAR(40),
-data_inicio DATE,
+Telefone CHAR(14),
+data_inicio datetime default current_timestamp,
 CEP_Empresa CHAR(9),
-Numero_endereco INT
+Numero_endereco INT,
+Logradouro varchar (30),
+Cidade varchar (20)
 );
 
 CREATE TABLE Usuario(
@@ -18,8 +19,12 @@ idUsuario INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 NomeUsuario VARCHAR(45),
 funcao CHAR(3),
 CHECK (funcao = 'fun' or 'adm'),
-fk_Empresa INT,
-FOREIGN KEY (fk_Empresa) REFERENCES Empresa (idEmpresa)
+email VARCHAR(40),
+senha VARCHAR(40),
+fk_empresa INT,
+FOREIGN KEY (fk_empresa) REFERENCES Empresa (idEmpresa),
+fk_funcao int,
+foreign key (fk_funcao) references Usuario (idUsuario)
 );
 
 CREATE TABLE Unidade(
@@ -30,7 +35,9 @@ FOREIGN KEY (fk_Empresa) REFERENCES Empresa (idEmpresa),
 fk_responsavel INT,
 FOREIGN KEY (fk_responsavel) REFERENCES Usuario (idUsuario),
 CEP_Unidade CHAR(9),
-Numero_endereco INT
+Numero_endereco INT,
+Logradouro varchar (30),
+Cidade varchar (20)
 );
 
 CREATE TABLE setor_unidade(
@@ -50,6 +57,12 @@ temperatura_max INT,
 temperatura_min INT,
 umidade_min INT,
 umidade INT
+);
+
+create table sensor (
+idSensor int primary key auto_increment,
+fk_Setor int,
+foreign key (fk_setor) references setor_unidade (idSetor)
 );
 
 CREATE TABLE Monitoramento(
