@@ -226,6 +226,7 @@ body {
 .card_cadastro {
   background-color: #ffffff;
   color: #753a22;
+  width: 70em;
   height: 80%;
   display: flex;
   border: 2px solid #753a22;
