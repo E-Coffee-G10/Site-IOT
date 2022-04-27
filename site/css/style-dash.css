@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #fbf8f9;
+  background-color: #f7f3f3;
   font-family: "Red Hat Display", sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
   display: flex;
   border-bottom: solid 3px #361e0b;
   width: 100%;
-  height: 85px;
+  height: 10vh;
   background-color: #753a22;
 }
 
@@ -49,8 +49,14 @@ body {
 }
 
 .select_dash {
-  height: 35px;
-  border-radius: 40px;
+  margin-left: 30px;
+  height: 30%;
+  margin-top: 2px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: lightgray;
+  outline-color: lightgray;
+  border-color: lightgray;
 }
 
 /* Secção 1 da pagina (Gráficos e "monitores de desempenho") */
@@ -77,6 +83,7 @@ body {
   width: 65%;
   padding: 1%;
   border: solid 3px #976b59;
+  background-color:#ffffff;
   border-radius: 40px;
 }
 
@@ -140,7 +147,7 @@ body {
   top: 14%;
   width: 12%;
   height: 35%;
-  background-color: #fbf8f9;
+  background-color: #f7f3f3;
   border-radius: 10px;
   border: gray 2px solid;
   opacity: 100%;
@@ -241,14 +248,19 @@ body {
 
 .modal {
   display: flex;
-  width: 70vw;
-  height: 70vh;
-  background-color: whitesmoke;
+  width: 125vh;
+  height: 65vh;
+  background-color: white;
+  border: 5px solid #753a22;
   border-radius: 20px;
   position: fixed;
   top: 15%;
-  left: 15%;
+  left: 20%;
   z-index: 9999;
+}
+
+.modal h2{
+  color: #753a22;
 }
 
 .content_modal {
@@ -260,13 +272,18 @@ body {
   height: 90%;
   min-width: 300px;
   border-radius: 20px;
-  border: 10px solid #753a22;
   position: relative;
 }
 
+.content_modal form{
+  margin-top:2%;
+  text-align: center;
+}
+
 #close_btn {
-  height: 30px;
+  height: 25px;
   align-self: flex-end;
+  margin-left: 3%;
   margin-right: 3%;
   margin-top: 1%;
 }
@@ -630,11 +647,13 @@ body {
 #select_unidade {
   margin-left: 30px;
   height: 40%;
+  font-size:larger;
   margin-top: 2px;
-  font-size: larger;
   border-radius: 20px;
   text-align: center;
   background-color: lightgray;
+  border-color: lightgray;
+  outline-color: lightgray;
 }
 
 #select_setor {
@@ -646,6 +665,8 @@ body {
   border-radius: 20px;
   text-align: center;
   background-color: lightgray;
+  border-color: lightgray;
+  outline-color: lightgray;
 }
 
 #setor_cima #sensor1 {

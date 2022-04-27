@@ -228,7 +228,7 @@ body {
 
 /* cadastro */
 .card_cadastro {
-  background-color: #ffffff;
+  background-color: #fbf8f9;
   color: #753a22;
   width: 70em;
   height: 80%;
@@ -247,15 +247,15 @@ body {
   justify-content: space-around;
 }
 
-.cadastro_direito h4 {
+.cadastro_direito span {
   margin: 10px;
 }
 
-.cadastro_meio h4 {
+.cadastro_meio span {
   margin: 10px;
 }
 
-.cadastro_esquerdo h4 {
+.cadastro_esquerdo span {
   margin: 10px;
 }
 
@@ -269,8 +269,8 @@ body {
 
 .cadastro_meio {
   width: 25%;
-  border-left: #753a22 solid 2px;
-  border-right: #753a22 solid 2px;
+  border-left: #753a22 solid 1px;
+  border-right: #753a22 solid 1px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -283,11 +283,12 @@ body {
 
 .titulo_cadastro h1 {
   margin-top: 2%;
+  font-weight: bold;
 }
 
 .card_cadastro .input_cadastro {
   outline: 2px solid #753a22;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   border: 0;
   padding: 8px;
   border-radius: 20px;
@@ -307,34 +308,34 @@ body {
 
 /* validações cadastro */
 #validacao_nome {
-  color: #11d100;
+  color: #87994b;
 }
 #validacao_cnpj {
-  color: #11d100;
+  color: #87994b;
 }
 #validação_telefone {
-  color: #11d100;
+  color: #87994b;
 }
 #validacao_email {
-  color: #11d100;
+  color: #87994b;
 }
 #validacao_cep {
-  color: #11d100;
+  color: #87994b;
 }
 #validacao_rua {
-  color: #11d100;
+  color: #87994b;
 }
 #validacao_endereco {
-  color: #11d100;
+  color: #87994b;
 }
 #validacao_cidade {
-  color: #11d100;
+  color: #87994b;
 }
 #validacao_senha {
-  color: #11d100;
+  color: #87994b;
 }
 #validacao_senha2 {
-  color: #11d100;
+  color: #87994b;
 }
 .btn_cadastro {
   margin: 0%;
@@ -350,13 +351,9 @@ body {
 }
 
 button:hover {
-  background-color: #27850b;
+  background-color: #87994b;
   cursor: pointer;
 }
-
-/* --------------------- */
-
-/* --------------------------------- */
 
 /* Forms das telas */
 
@@ -570,6 +567,7 @@ body {
 
 .header-usuario {
   background-color: #753a22;
+  border-bottom: solid 3px #361e0b;
   display: flex;
   align-items: center;
   height: 10vh;
