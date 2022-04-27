@@ -251,7 +251,7 @@ body {
   width: 125vh;
   height: 65vh;
   background-color: white;
-  border: 5px solid #753a22;
+  border: 5px solid #976b59;
   border-radius: 20px;
   position: fixed;
   top: 15%;
@@ -302,8 +302,9 @@ body {
 .subtitulo {
   color: #753a22;
   text-align: center;
-  font-weight: 900;
-  font-style: italic;
+  font-weight: bolder;
+  margin-top: 10%;
+  margin-bottom: 4%;
 }
 
 .titulo_barra{
@@ -316,9 +317,8 @@ body {
 }
 
 .titulo_barra #sinal1{
-  background-color: #696969;
-  color: white;
-  border: black solid 5px;
+  color: #753a22;
+  border: #753a22 solid 3px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -440,14 +440,10 @@ body {
 
 #barra_dash2 p {
   margin-top: 5px;
-  font-size: xx-large;
-  font-weight: bold;
+  font-size: 28px;
   margin: 0;
 }
 
-#barra_dash2 span{
-  font-weight: bolder;
-}
 
 #barra_dash3 p {
   margin-top: 5px;
@@ -462,12 +458,17 @@ body {
 
 #barra_dash2 #box1 {
   background-color: #305496;
-  border: black solid 3px;
+  color: #ffffff;
+  border: #753a22 solid 2px;
   border-radius: 10px;
   height: 100%;
   width: 150px;
   text-align: center;
   font-size: 18px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
 }
 
 #barra_dash2 #box2 {
@@ -672,7 +673,9 @@ body {
 #setor_cima #sensor1 {
   width: 250px;
   height: 300px;
-  border: #753a22 4px solid;
+  border: #753a22 solid 2px;
+  background-color: #ffffff;
+  color: #753a22;
   border-radius: 20px;
   font-size: large;
 }
@@ -680,7 +683,9 @@ body {
 #setor_cima #sensor2 {
   width: 250px;
   height: 300px;
-  border: #753a22 4px solid;
+  border: #753a22 solid 2px;
+  background-color: #ffffff;
+  color: #753a22;
   border-radius: 20px;
   font-size: large;
 }
@@ -688,7 +693,9 @@ body {
 #setor_cima #sensor3 {
   width: 250px;
   height: 300px;
-  border: #753a22 4px solid;
+  border: #753a22 solid 2px;
+  background-color: #ffffff;
+  color: #753a22;
   border-radius: 20px;
   font-size: large;
 }
@@ -696,7 +703,9 @@ body {
 #setor_cima #sensor4 {
   width: 250px;
   height: 300px;
-  border: #753a22 4px solid;
+  border: #753a22 solid 2px;
+  background-color: #ffffff;
+  color: #753a22;
   border-radius: 20px;
   font-size: large;
 }
@@ -704,7 +713,9 @@ body {
 #setor_baixo #sensor5 {
   width: 250px;
   height: 300px;
-  border: #753a22 4px solid;
+  border: #753a22 solid 2px;
+  background-color: #ffffff;
+  color: #753a22;
   border-radius: 20px;
   font-size: large;
 }
@@ -712,7 +723,9 @@ body {
 #setor_baixo #sensor6 {
   width: 250px;
   height: 300px;
-  border: #753a22 4px solid;
+  border: #753a22 solid 2px;
+  background-color: #ffffff;
+  color: #753a22;
   border-radius: 20px;
   font-size: large;
 }
@@ -720,7 +733,9 @@ body {
 #setor_baixo #sensor7 {
   width: 250px;
   height: 300px;
-  border: #753a22 4px solid;
+  border: #753a22 solid 2px;
+  background-color: #ffffff;
+  color: #753a22;
   border-radius: 20px;
   font-size: large;
 }
@@ -728,7 +743,9 @@ body {
 #setor_baixo #sensor8 {
   width: 250px;
   height: 300px;
-  border: #753a22 4px solid;
+  border: #753a22 solid 2px;
+  background-color: #ffffff;
+  color: #753a22;
   border-radius: 20px;
   font-size: large;
 }
